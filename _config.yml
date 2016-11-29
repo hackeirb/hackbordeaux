@@ -51,9 +51,9 @@ event:
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at The University of Example.
-      This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
-      Keep it straightforward, don't make it too long.
+      HackBordeaux 2017 is the first edition of a hackathon run by students, for students. 
+      It will be held at ENSEIRB-MATMECA in Bordeaux, France. Join 200 student-hackers, from
+      beginners to experts !
 
   # Info Sections
   info:
