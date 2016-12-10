@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #898c8e;
+  background-color: #ad0c0c;
 }
 
 section {
@@ -44,12 +44,12 @@ section {
   z-index: 10000;
 }
 
-/* 
+/*
  * Hero Section
  */
 
 .hero {
-  background-color: #898c8e;
+  background-color: #ad0c0c;
   min-height: 110vh;
 }
 
@@ -58,7 +58,7 @@ section {
 }
 
 .hero hr {
-  border-top: 15px solid #0F2C34;
+  border-top: 15px solid #540c0c;
   margin: 0;
   position: relative;
   top: -14px;
@@ -95,9 +95,9 @@ section {
 
 .hero .buttons a {
   background: #fff;
-  border: 10px solid #0F2C34;
+  border: 10px solid #540c0c;
   border-radius: 40px;
-  color: #0F2C34;
+  color: #540c0c;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -109,7 +109,7 @@ section {
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color: #0F2C34;
+  background-color: #540c0c;
   color: #fff;
   transition: all 0.2s ease;
 }
@@ -118,7 +118,7 @@ section {
   margin-right: 10px;
 }
 
-/* 
+/*
  * About Section
  */
 
@@ -196,7 +196,7 @@ section {
 }
 
 .faq .question hr {
-  border-top: 8px solid #0F2C34;
+  border-top: 8px solid #540c0c;
   margin: 20px 0;
   width: 80px;
 }
@@ -217,7 +217,7 @@ section {
  */
 
 .footer {
-  background-color: #898c8e;
+  background-color: #ad0c0c;
   color: #fff;
   padding: 30px 0;
 }

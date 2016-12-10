@@ -38,7 +38,7 @@ event:
   trust_badge:
     year:   "2017"  # season year
     region: "eu"    # "na" or "eu"
-    color:  "gray" # "white", "black", "gray", "red", "blue" or "yellow"
+    color:  "red" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
     links:
@@ -51,7 +51,7 @@ event:
 
   about:
     description: >
-      HackBordeaux 2017 is the first edition of a hackathon run by students, for students. 
+      HackBordeaux 2017 is the first edition of a hackathon run by students, for students.
       It will be held at ENSEIRB-MATMECA in Bordeaux, France. Join 200 student-hackers, from
       beginners to experts !
 
