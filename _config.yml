@@ -41,6 +41,7 @@ event:
     color:  "red" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
+    - image: "images/hero_bg.png"
     links:
       - text: "Apply"
         my_mlh:
