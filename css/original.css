@@ -69,11 +69,7 @@ section {
 
 .hero hr {
     border-top: 1px solid #fff;
-    margin: 20px 70px;
-    margin-top: 20px;
-    margin-right: 70px;
-    margin-bottom: 20px;
-    margin-left: 70px;
+    margin: auto;
     width: 75%;
 }
 
