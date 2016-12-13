@@ -50,7 +50,7 @@ section {
  */
 
 .hero {
-  background-color:#3A3939;
+  background-color:#A30000;
   min-height: 110vh;
 }
 
@@ -59,7 +59,7 @@ section {
 }
 
 .hero hr {
-  border-top: 15px solid #540c0c;
+  border-top: 15px solid #A30000;
   margin: 0;
   position: relative;
   top: -14px;
@@ -69,15 +69,15 @@ section {
   padding-top: 30vh;
 }
 
-.hero .wrapper h1 {
+/*.hero .wrapper h1 {
   background: #fff;
-  background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0);
   display: inline-block;
   font-size: 60px;
   font-weight: 800;
   letter-spacing: -2px;
   padding: 10px 30px;
-}
+}*/
 
 .hero .wrapper h2 {
   font-size: 28px;
@@ -131,7 +131,7 @@ section {
 }
 
 .about p {
-  color: #0F2C34;
+  color: #A30000;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.6em;
