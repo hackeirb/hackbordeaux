@@ -97,6 +97,7 @@ section {
 .hero .buttons {
   margin: 40px 0;
   padding-top: 35vh;
+  text-align:center;
 }
 
 .hero .buttons a {
