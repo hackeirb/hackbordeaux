@@ -50,8 +50,18 @@ section {
  */
 
 .hero {
-  background-image: url(../images/hero_bg1.jpg);
-  background-size: 100% 100%;
+  background:
+    background-image: url(../images/hero_bg1.jpg);
+    background-position-x: initial, initial;
+    background-position-y: initial, initial;
+    background-size: cover;
+    background-repeat-x: initial, initial;
+    background-repeat-y: initial, initial;
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+  background-size: cover;
   background-repeat: no-repeat;
   min-height: 110vh;
   top: 0;
