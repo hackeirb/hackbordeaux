@@ -69,6 +69,7 @@ section {
 
 .hero .wrapper {
   padding-top: 30vh;
+  margin: 0;
 }
 
 /*.hero .wrapper h1 {
@@ -93,7 +94,7 @@ section {
 }
 
 .hero .buttons {
-  margin: 40px 0;
+  margin: 0px 0;
 }
 
 .hero .buttons a {
