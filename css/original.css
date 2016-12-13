@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #068a28;
+  background-color:  #0F2C34;
   color : #153a1e;
 }
 
@@ -62,12 +62,12 @@ section {
   max-width: 400px;
 }
 
-.hero hr {
-  /*border-top: 15px solid #A30000;*/
+/*.hero hr {
+  border-top: 15px solid #A30000;
   margin: 0;
   position: relative;
   top: -14px;
-}
+}*/
 
 .hero .wrapper {
   padding-top: 0;
@@ -103,7 +103,7 @@ section {
   background: #fff;
   /*border: 10px solid #A30000;*/
   border-radius: 40px;
-  color: #A30000;
+  color:  #0F2C34;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -111,11 +111,12 @@ section {
   padding: 10px 70px;
   text-decoration: none;
   text-transform: uppercase;
+  padding-bottom: 5vh;
 }
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color: #068a28;
+  background-color:  #0F2C34;
   color: #fff;
   transition: all 0.2s ease;
 }
@@ -136,7 +137,7 @@ section {
 }
 
 .about p {
-  color: #A30000;
+  color:  #0F2C34;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.6em;
@@ -202,7 +203,7 @@ section {
 }
 
 .faq .question hr {
-  border-top: 8px solid #068a28;
+  border-top: 8px solid  #0F2C34;
   margin: 20px 0;
   width: 80px;
 }
@@ -223,7 +224,7 @@ section {
  */
 
 .footer {
-  background-color: #068a28;
+  background-color:  #0F2C34;
   color: #fff;
   padding: 30px 0;
 }
