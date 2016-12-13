@@ -50,7 +50,7 @@ section {
  */
 
 .hero {
-  background-image: url(../images/hero_bg1.jpg);
+  background-image: url(../images/hero_bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 110vh;
