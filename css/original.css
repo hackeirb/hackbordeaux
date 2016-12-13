@@ -51,7 +51,7 @@ section {
 
 .hero {
   background-image: url(../images/hero_bg1.jpg);
-  background-size: contain;
+  background-size: border-box;
   background-repeat: no-repeat;
   min-height: 110vh;
   top: 0;
