@@ -50,7 +50,7 @@ section {
  */
 
 .hero {
-  background:rgba(0,0,0,0.4);
+  background: linear-gradient(to right, rgba(255,0,0,0.4), rgba(255,0,0,0.4)); 
   background-image: url(../images/hero_bg1.jpg);
   background-position: center;
   background-attachment: fixed;
