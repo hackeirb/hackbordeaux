@@ -54,6 +54,7 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
   min-height: 110vh;
+  top: 0;
 }
 
 .hero img {
@@ -69,7 +70,6 @@ section {
 
 .hero .wrapper {
   padding-top: 30vh;
-  margin: 0;
 }
 
 /*.hero .wrapper h1 {
@@ -94,7 +94,7 @@ section {
 }
 
 .hero .buttons {
-  margin: 0px 0;
+  margin: 40px 0;
 }
 
 .hero .buttons a {
