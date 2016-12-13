@@ -51,10 +51,11 @@ section {
 
 .hero {
   background-image: url(../images/hero_bg1.jpg);
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 110vh;
+  min-height: 90vh;
   top: 0;
 }
 
