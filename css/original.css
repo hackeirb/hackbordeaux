@@ -61,7 +61,7 @@ section {
 }
 
 .hero hr {
-  border-top: 15px solid #A30000;
+  /*border-top: 15px solid #A30000;*/
   margin: 0;
   position: relative;
   top: -14px;
