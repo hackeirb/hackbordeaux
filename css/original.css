@@ -157,7 +157,7 @@ body {
     left: 0;
     right: 0;
     content: '';
-    top: 1vh;
+    top: 0;
     display:block;
     transform-origin: 0 0;
     transform: skewY(-2.5deg);
@@ -201,7 +201,6 @@ body {
     right: 0;
     content: '';
     top: auto;
-  bottom:0;
     display:block;
     transform-origin: 0 0;
     transform: skewY(2.5deg);
