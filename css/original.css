@@ -27,9 +27,12 @@ body {
 }
 
 a {
-color : #FCB3A4;
+  color : #FCB3A4;
 }
 
+a:hover {
+  color:#E1870E; 
+}
 /*
  * Trust Badge
  */
@@ -108,7 +111,7 @@ margin-top:0;
   background: #fff;
   /*border: 10px solid #A30000;*/
   border-radius: 40px;
-  color:  #FCB3A4;
+  color:  #A81C07;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
