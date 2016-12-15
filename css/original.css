@@ -23,7 +23,7 @@
 
 body {
   background-color:  #fff;
-  color : #0471B5;
+  color : #FF9653;
 }
 
 /*
@@ -104,7 +104,7 @@ margin-top:0;
   background: #fff;
   /*border: 10px solid #A30000;*/
   border-radius: 40px;
-  color:  #0471B5;
+  color:  #FF9653;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -138,7 +138,7 @@ margin-top:0;
 }
 
 .about p {
-  color:  #44D5FF;
+  color:  #FF9653;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.6em;
