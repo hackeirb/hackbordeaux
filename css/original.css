@@ -123,8 +123,8 @@ margin-top:0;
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color:  #F7C424;
-  color: #F98268;
+  background-color:  #F98268;
+  color: #F7C424;
   transition: all 0.2s ease;
 }
 
