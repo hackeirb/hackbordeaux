@@ -290,14 +290,24 @@ margin-top:0;
 
 @media(max-width: 768px) {
   .hero .wrapper {
-    padding-top: 10vh;
+    padding-top: 25vh;
   }
+  
+  .hero .buttons {
+    padding-top: 20vh;
+  }
+ 
   .hero .buttons a {
     border-width: 8px;
     display: block;
     font-size: 20px;
     padding-bottom: 10px;
   }
+  
+  
+.hero .buttons a:not(:last-child) {
+  margin-bottom: 10px;
+}
   
   .hero img {
     width: 250px;
