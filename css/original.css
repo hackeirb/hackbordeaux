@@ -146,8 +146,10 @@ section {
     right: 0;
     content: '';
     top: 0;
+    display:block;
     transform-origin: 0 0;
     transform: skewY(-2.5deg);
+  border-top: 3rem #fff solid;
 }
 .about p {
   color:  #44D5FF;
