@@ -120,7 +120,7 @@ margin-top:0;
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color:  #FF6961;
+  background-color:  #A81C07;
   color: #BF2A0A;
   transition: all 0.2s ease;
 }
@@ -135,7 +135,7 @@ margin-top:0;
 
 .about {
   border-width: 15px 0;
-  background-color: #FF6961;
+  background-color: #A81C07;
   padding: 30px 0;
   position: relative;
   margin-top:15px;
@@ -171,7 +171,7 @@ margin-top:0;
 }
 
 .info {
-  background-color: #FF6961;
+  background-color: #A81C07;
   padding: 100px 0;
   position: relative;
   z-index:1;
@@ -216,7 +216,7 @@ margin-top:0;
 }
 
 .faq {
-  background-color: #FF6961;
+  background-color: #A81C07;
   padding: 0 0;
   position: relative;
     z-index:1;
@@ -269,7 +269,7 @@ margin-top:0;
 }
 
 .footer {
-  background-color:  #FF6961;
+  background-color:  #A81C07;
   color: #fff;
   padding: 70px 0;
   z-index:1;
