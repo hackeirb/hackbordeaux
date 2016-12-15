@@ -302,12 +302,14 @@ margin-top:0;
     border-width: 8px;
     display: block;
     font-size: 20px;
+    margin-right:10px;
+    margin-left:10px;
   }
   
   
-.hero .buttons a:not(:last-child) {
-  margin-bottom: 10px;
-}
+  .hero .buttons a:not(:last-child) {
+    margin-bottom: 10px;
+  }
   
   .hero img {
     width: 250px;
