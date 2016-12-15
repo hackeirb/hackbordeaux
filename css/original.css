@@ -156,7 +156,7 @@ body {
     left: 0;
     right: 0;
     content: '';
-    top: 0;
+    top: 5vh;
     display:block;
     transform-origin: 0 0;
     transform: skewY(-2.5deg);
@@ -189,9 +189,12 @@ body {
   font-size: 20px;
 }
 
+
+
 /*
  * FAQ Section
  */
+
 .faq:before {
     z-index: -1;
     position: absolute;
@@ -241,27 +244,29 @@ body {
   margin-top: 40px;
   width: 300px;
 }
-
-/*
- * Footer Section
- */
-.footer:before {
+.footer:after {
     z-index: -1;
     position: absolute;
     height:50%;
     left: 0;
     right: 0;
     content: '';
-    top: 0;
+    bottom: 0;
+  top:auto;
     display:block;
     transform: skewY(2.5deg);
     border-top: 1.5rem #fff solid;
   background-color:#fff;
 }
 
+/*
+ * Footer Section
+ */
+
+
 .footer {
-  background-color:  #0F2C34;
-  color: #fff;
+  background-color:  #fff;
+  color: #0F2C34;
   padding: 30px 0;
   margin-top:15px;
   z-index:1;
