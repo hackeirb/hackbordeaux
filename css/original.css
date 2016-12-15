@@ -23,7 +23,7 @@
 
 body {
   background-color:  #0F2C34;
-  color : #153a1e;
+  color : #fff;
 }
 
 section {
@@ -117,7 +117,7 @@ section {
 .hero .buttons a:hover,
 .hero .buttons a:focus {
   background-color:  #0F2C34;
-  color: #fff;
+  color: #44D5FF;
   transition: all 0.2s ease;
 }
 
