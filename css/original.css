@@ -79,6 +79,9 @@ body {
   letter-spacing: -2px;
   padding: 10px 30px;
 }*/
+.hero .wrapper h1 {
+margin-top:0;
+}
 
 .hero .wrapper h2 {
   font-size: 28px;
@@ -131,7 +134,6 @@ body {
   background-color: #0F2C34;
   padding: 30px 0;
   position: relative;
-  margin-top:15px;
 }
 
 .about p {
@@ -264,7 +266,7 @@ body {
 .footer {
   background-color:  #0F2C34;
   color: #fff;
-  padding: 30px 0;
+  padding: 70px 0;
   z-index:1;
 }
 
