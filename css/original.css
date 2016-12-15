@@ -26,10 +26,6 @@ body {
   color : #44D5FF;
 }
 
-section {
-  overflow-x:hidden;
-}
-
 /*
  * Trust Badge
  */
@@ -162,16 +158,15 @@ section {
     left: 0;
     right: 0;
     content: '';
-    top: 0;
+    top: 1vh;
     display:block;
     transform-origin: 0 0;
     transform: skewY(-2.5deg);
-  border-top: 3rem #fff solid;
+    border-top: 3rem #fff solid;
 }
 
 .info {
   background-color: #0F2C34;
-  margin-top: 15px;
   padding: 100px 0;
   position: relative;
   z-index:1;
