@@ -152,7 +152,6 @@ body {
  */
 .info:before {
     z-index: -1;
-    height: 50%;
     position: absolute;
     left: 0;
     right: 0;
@@ -195,15 +194,14 @@ body {
  */
 .faq:before {
     z-index: -1;
-    height: 50%;
     position: absolute;
     left: 0;
     right: 0;
     content: '';
-    top: auto;
+    top: 0;
     display:block;
     transform-origin: 0 0;
-    transform: skewY(2.5deg);
+    transform: skewY(-2.5deg);
     border-top: 1.5rem #fff solid;
 }
 
@@ -247,12 +245,26 @@ body {
 /*
  * Footer Section
  */
+.footer:before {
+    z-index: -1;
+    position: absolute;
+    height:50%;
+    left: 0;
+    right: 0;
+    content: '';
+    top: 0;
+    display:block;
+    transform: skewY(2.5deg);
+    border-top: 1.5rem #fff solid;
+  background-color:#fff;
+}
 
 .footer {
   background-color:  #0F2C34;
   color: #fff;
   padding: 30px 0;
   margin-top:15px;
+  z-index:1;
 }
 
 .footer img {
@@ -273,13 +285,20 @@ body {
 }
 
 @media(max-width: 768px) {
+  .hero .wrapper {
+    padding-top: 10vh;
+  }
   .hero .buttons a {
     border-width: 8px;
     display: block;
     font-size: 20px;
     margin: 5px;
+    padding-bottom:15px;
   }
 
+  .hero {
+     top: 0;
+  }
   .hero img {
     width: 250px;
   }
