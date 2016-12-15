@@ -134,6 +134,7 @@ margin-top:0;
   background-color: #0F2C34;
   padding: 30px 0;
   position: relative;
+  margin-top:15px;
 }
 
 .about p {
@@ -295,7 +296,7 @@ margin-top:0;
     border-width: 8px;
     display: block;
     font-size: 20px;
-    margin: 5px;
+    padding-bottom: 10px;
   }
   
   .hero img {
