@@ -295,13 +295,13 @@ margin-top:0;
   
   .hero .buttons {
     padding-top: 20vh;
+    padding-bottom: 2vh;
   }
  
   .hero .buttons a {
     border-width: 8px;
     display: block;
     font-size: 20px;
-    padding-bottom: 2vh;
   }
   
   
