@@ -25,14 +25,14 @@ body {
   background-color:  #fff;
   color : #fff;
 }
-
+/*
 a {
   color : #F7C424;
 }
 
 a:hover {
   color:#E1870E; 
-}
+}*/
 /*
  * Trust Badge
  */
@@ -53,7 +53,7 @@ a:hover {
  */
 
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/hero_bg1.jpg); 
+  background: url(../images/hero_bg1.jpg); 
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -69,6 +69,7 @@ a:hover {
 
 .hero .wrapper {
   padding-top: 0;
+  background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
 }
 
 .hero hr {
@@ -111,7 +112,7 @@ margin-top:0;
   background: #fff;
   /*border: 10px solid #A30000;*/
   border-radius: 40px;
-  color:  #A81C07;
+  color:  #0F2C34;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -123,8 +124,8 @@ margin-top:0;
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color:  #A81C07;
-  color: #F7C424;
+  background-color:  #0F2C34;
+  color: #fff;
   transition: all 0.2s ease;
 }
 
@@ -138,7 +139,7 @@ margin-top:0;
 
 .about {
   border-width: 15px 0;
-  background-color: #A81C07;
+  background-color: #0F2C34;
   padding: 30px 0;
   position: relative;
   margin-top:15px;
@@ -174,7 +175,7 @@ margin-top:0;
 }
 
 .info {
-  background-color: #A81C07;
+  background-color: #0F2C34;
   padding: 100px 0;
   position: relative;
   z-index:1;
@@ -219,7 +220,7 @@ margin-top:0;
 }
 
 .faq {
-  background-color: #A81C07;
+  background-color: #0F2C34;
   padding: 0 0;
   position: relative;
     z-index:1;
@@ -272,7 +273,7 @@ margin-top:0;
 }
 
 .footer {
-  background-color:  #A81C07;
+  background-color:  #0F2C34;
   color: #fff;
   padding: 70px 0;
   z-index:1;
@@ -297,7 +298,7 @@ margin-top:0;
 
 @media(max-width: 768px) {
   .hero .wrapper {
-    padding-top: 25vh;
+    margin-top: 25vh;
   }
   
   .hero .buttons {
