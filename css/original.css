@@ -142,7 +142,7 @@ margin-top:0;
 }
 
 .about p {
-  color:  #BF2A0A;
+  color:  #fff;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.6em;
@@ -269,7 +269,7 @@ margin-top:0;
 }
 
 .footer {
-  background-color:  #003300;
+  background-color:  #C37261;
   color: #fff;
   padding: 70px 0;
   z-index:1;
