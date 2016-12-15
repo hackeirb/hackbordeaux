@@ -23,7 +23,7 @@
 
 body {
   background-color:  #fff;
-  color : #28A128;
+  color : #fff;
 }
 
 a {
@@ -108,7 +108,7 @@ margin-top:0;
   background: #fff;
   /*border: 10px solid #A30000;*/
   border-radius: 40px;
-  color:  #28A128;
+  color:  #BF2A0A;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -120,8 +120,8 @@ margin-top:0;
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color:  #003300;
-  color: #28A128;
+  background-color:  #C37261;
+  color: #BF2A0A;
   transition: all 0.2s ease;
 }
 
@@ -135,14 +135,14 @@ margin-top:0;
 
 .about {
   border-width: 15px 0;
-  background-color: #003300;
+  background-color: #C37261;
   padding: 30px 0;
   position: relative;
   margin-top:15px;
 }
 
 .about p {
-  color:  #28A128;
+  color:  #BF2A0A;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.6em;
@@ -171,7 +171,7 @@ margin-top:0;
 }
 
 .info {
-  background-color: #003300;
+  background-color: #C37261;
   padding: 100px 0;
   position: relative;
   z-index:1;
@@ -216,7 +216,7 @@ margin-top:0;
 }
 
 .faq {
-  background-color: #003300;
+  background-color: #C37261;
   padding: 0 0;
   position: relative;
     z-index:1;
