@@ -139,7 +139,15 @@ section {
 }
 
 .about:before {
-  transform: skewY(-2.5deg);
+    z-index: -1;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    top: 0;
+    transform-origin: 0 0;
+    transform: skewY(-2.5deg);
 }
 .about p {
   color:  #44D5FF;
