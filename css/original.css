@@ -138,6 +138,9 @@ section {
   margin-top:15px;
 }
 
+.about:before {
+  transform: skewY(-2.5deg);
+}
 .about p {
   color:  #44D5FF;
   font-weight: 600;
