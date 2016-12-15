@@ -132,7 +132,6 @@ body {
   padding: 30px 0;
   position: relative;
   margin-top:15px;
-  overflow-x:visible;
 }
 
 .about p {
@@ -162,7 +161,7 @@ body {
     display:block;
     transform-origin: 0 0;
     transform: skewY(-2.5deg);
-    border-top: 3rem #fff solid;
+    border-top: 1.5rem #fff solid;
 }
 
 .info {
@@ -194,12 +193,26 @@ body {
 /*
  * FAQ Section
  */
+.faq:before {
+    z-index: -1;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    top: 1vh;
+    display:block;
+    transform-origin: 0 0;
+    transform: skewY(2.5deg);
+    border-top: 1.5rem #fff solid;
+}
 
 .faq {
   background-color: #0F2C34;
-  margin-top: 15px;
   padding: 100px 0;
   position: relative;
+    z-index:1;
+
 }
 
 .faq h1 {
