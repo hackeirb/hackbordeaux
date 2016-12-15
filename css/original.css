@@ -27,7 +27,7 @@ body {
 }
 
 a {
-color : #E62F08;
+color : #F16053;
 }
 
 /*
@@ -108,7 +108,7 @@ margin-top:0;
   background: #fff;
   /*border: 10px solid #A30000;*/
   border-radius: 40px;
-  color:  #BF2A0A;
+  color:  #F16053;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -121,7 +121,7 @@ margin-top:0;
 .hero .buttons a:hover,
 .hero .buttons a:focus {
   background-color:  #A81C07;
-  color: #BF2A0A;
+  color: #F16053;
   transition: all 0.2s ease;
 }
 
