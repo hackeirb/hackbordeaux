@@ -197,6 +197,7 @@ body {
 
 .faq:before {
     z-index: -1;
+    position: absolute;
     left: 0;
     right: 0;
     content: '';
@@ -250,7 +251,6 @@ body {
  */
 .footer:before {
     z-index: -1;
-    position: absolute;
     left: 0;
     right: 0;
     content: '';
