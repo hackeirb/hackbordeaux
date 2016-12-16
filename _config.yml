@@ -56,7 +56,7 @@ event:
       HackBordeaux is a student run hackathon in collaboration with <a class="go-sponsors" href="#">sponsoring companies & startups</a>, held at Bordeaux-INP in Bordeaux, France.
 
 
-      It's the first MLH hackathon in France! So come join 200 passionate like-minded people on this adventure!
+      It is the first MLH hackathon in France! So come join 200 passionate like-minded people on this adventure!
       Let's build amazing things, learn even more and share awesome experiences from around Europe!
 
   # Info Sections
@@ -78,7 +78,7 @@ event:
 
   # Abroad
   abroad:
-    description: "Are you coming from another country or city? Awesome! Join us for a tour of Bordeaux on Friday and get to meet everyone. We'll take care of you  and settle everything so you can be ready for HackBordeaux the next day!"
+    description: "Are you coming from another country or city? Awesome! Join us for a tour of Bordeaux on Friday and get to meet everyone. We will take care of you  and settle everything so you can be ready for HackBordeaux the next day!"
     sections:
     help: >
       Any questions or do want to get to know us? Send an email to [info@hackbordeaux.com](mailto:info@hackbordeaux.com) or simply contact us on <a class="go-about" href="#">social networks</a>
@@ -90,7 +90,7 @@ event:
         A [MLH](https://mlh.io) hackathon is a creative and social event where students come together, share ideas and build cool software & hardware hacks in 24 hours.
 
 
-        You learn immensely, interact with startups & companies and get to meet like-minded people from around the world! Don't worry it's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl)!
+        You learn immensely, interact with startups & companies and get to meet like-minded people from around the world. Don't worry it's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl)!
     - question: "How much does it cost?"
       answer: >
         Nothing. Attending a MLH hackathon is free, and we'd like to thank our awesome <a class="go-sponsors" href="#">sponsors</a> who made it possible!
