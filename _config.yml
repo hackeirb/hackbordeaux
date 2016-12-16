@@ -53,7 +53,7 @@ event:
 
   about:
     description: >
-      HackBordeaux is a student run hackathon in collaboration with <a class="go-sponsors" href="#">sponsoring companies & startups</a>, held at Bordeaux-INP in Bordeaux, France.
+      HackBordeaux is a student run hackathon in collaboration with <a class="go-sponsors" href="#">sponsoring companies & startups</a>, held at Bordeaux-INP in Bordeaux, France on April 2017
 
 
       It is the first MLH hackathon in France! So come join 200 passionate like-minded people on this adventure!
@@ -115,7 +115,7 @@ event:
 
   # Sponsors, TODO populate and yml structure for gold, silver, bronze, general partners loop
   sponsors:
-    invite: "Interested in sponsoring HackBordeaux? Send an email to [sponsorship@hackbordeaux.com](mailto:sponsorship@hackbordeaux.com)"
+    invite: "Interested in sponsoring HackBordeaux? Here are the [sponsorship details](http://hackbordeaux.com/public/sponsorship_levels.pdf) and send an email to [info@hackbordeaux.com](mailto:info@hackbordeaux.com)"
     im_mlh: "images/mlh.png"
     im_school: "images/bordeaux-inp.png"
 
