@@ -4,7 +4,7 @@ layout: default
 
 {% include hero.html %}
 
-<section class="about">
+<section id="about">
   <div class="container">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
       {{ site.event.about.description | markdownify }}
@@ -19,8 +19,6 @@ layout: default
         <div class="col-xs-12 col-sm-4 text-center">
           <div class="item">
             <img src="{{ section.image }}" />
-            <h1>{{ section.title }}</h1>
-            <p>{{ section.description }}</p>
           </div>
         </div>
       {% endfor %}
@@ -42,5 +40,45 @@ layout: default
         {% endfor %}
       </div>
     </div>
+  </div>
+</section>
+
+<section class="abroad">
+  <div class="container">
+    <h1 class="text-center">Coming from abroad!</h1>
+    <div class="row">
+      <p>
+        {{ site.event.abroad.description | markdownify }}
+      </p>
+      <p>
+        {{ site.event.abroad.help | markdownify }}
+      </p>
+    </div>
+  </div>
+</section>
+
+<div id="map" style="width:100%;height:500px"></div>
+
+<section id="sponsors">
+  <div class="container">
+    <h1 class="text-center">Sponsors</h1>
+    <div class="row partners">
+      <div class="col-xs-12 col-sm-4 text-center">
+        <div class="item">
+          <img src="{{ site.event.sponsors.im_mlh }}" />
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-sm-offset-4 text-center">
+        <div class="item">
+          <img src="{{ site.event.sponsors.im_school }}" />
+        </div>
+      </div>
+    </div>
+    <div class="row invite">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+        {{ site.event.sponsors.invite | markdownify }}
+      </div>
+    </div>
+   </div>
   </div>
 </section>

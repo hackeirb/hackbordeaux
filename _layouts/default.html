@@ -14,7 +14,26 @@
       </div>
     </section>
 
-    <script src="{{ '/js/jquery-1.11.3.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
+
+
+    <script>
+    function myMap() {
+      var venue = {lat: 44.8066376, lng: -0.6051667};
+      var mapCanvas = document.getElementById("map");
+      var mapOptions = {
+        center: new google.maps.LatLng(44.8066376, -0.6051667),
+        zoom: 12
+      }
+
+      var map = new google.maps.Map(mapCanvas, mapOptions);
+      var marker = new google.maps.Marker({
+          position: venue,
+          map: map
+        });
+    }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 
     {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
   </body>
