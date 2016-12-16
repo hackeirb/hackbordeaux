@@ -81,7 +81,7 @@ event:
     description: "Are you coming from another country or city? Awesome! Join us for a tour of Bordeaux on Friday and get to meet everyone. We'll take care of you  and settle everything so you can be ready for HackBordeaux the next day!"
     sections:
     help: >
-      "Any questions or do want to get to know us? Send an email to [info@hackbordeaux.com](mailto:info@hackbordeaux.com) or simply contact us on <a class="go-about" href="#">social networks</a>"
+      Any questions or do want to get to know us? Send an email to [info@hackbordeaux.com](mailto:info@hackbordeaux.com) or simply contact us on <a class="go-about" href="#">social networks</a>
 
   # Frequently asked questions.
   faq:
