@@ -101,7 +101,7 @@ event:
 
 
         However, are you interested in this event or totally excited about it?
-        You can also be a [mentor](https://mlh.io/mentors) helping students during their hacks! [Contact us]((mailto:info@hackbordeaux.com))!
+        You can also be a [mentor](https://mlh.io/mentors) helping students during their hacks! [Contact us](mailto:info@hackbordeaux.com)!
     - question: "Where is the event?"
       answer: >
         The event is being hosted at <a class="go-map" href="#">Bordeaux-INP, ENSEIRB-MATMECA</a>.
