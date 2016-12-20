@@ -126,10 +126,14 @@ a:hover {
 }
 
 /* Scrolling Icon */
+#wave-wrapper {
+  text-align: center;   /* to center child icon wave-scroll*/
+}
+
 #wave-scroll {
+  display: inline-block;
   position: fixed;
   bottom: 20%;
-  left: 50%;
 }
 
 #bird-scroll a {
@@ -341,12 +345,12 @@ a:hover {
   font-family: Montserrat;
   color: #0F2C34;
   margin-left: 2vw;
-  margin-top: 10vw;
+  margin-top: 8vw;
 }
 
 #info h3 {
   font-size: 4vw;
-
+  margin-bottom: 20px;
 }
 
 #ignite-word {
