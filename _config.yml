@@ -8,8 +8,8 @@ baseurl: ""
 
 # If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
 # If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
-url: "http://hackbordeaux.com"
-#url: "http://localhost:4000"
+#url: "http://hackbordeaux.com"
+url: "http://localhost:4000"
 
 # The ability to use custom themes.
 style:
@@ -22,7 +22,7 @@ tracking:
 # Let people connect & engage with you through social media.
 social:
   twitter_handle: "MLHacks"
-  mail: "sponsorship@hackbordeaux.com"
+  mail: "sponsor@hackbordeaux.com"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
@@ -40,40 +40,33 @@ event:
   trust_badge:
     year:   "2017"  # season year
     region: "eu"    # "na" or "eu"
-    color:  "gray" # "white", "black", "gray", "red", "blue" or "yellow"
+    color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
     links:
-      - text: "Apply"
-        my_mlh:
-          client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
-          redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
-      - text: "Sponsor"
-        href: "mailto:sponsorship@hackbordeaux.com}"
+      #- text: "Apply"
+        #my_mlh:
+          #client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
+          #redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
+      #- text: "Sponsor"
+        #href: "mailto:sponsor@hackbordeaux.com"
 
   about:
     description: >
-      HackBordeaux is a student run hackathon in collaboration with <a class="go-sponsors" href="#">sponsoring companies & startups</a>, held at Bordeaux-INP in Bordeaux, France on April 2017
+      HackBordeaux is a student run hackathon in collaboration with <a href="#sponsors">sponsoring companies & startups</a>, held at Bordeaux-INP in Bordeaux, France on April 2017
 
 
-      It is the first MLH hackathon in France! So come join 200 passionate like-minded people on this adventure!
+      It is the first MLH hackathon in France! So come join up to 200 passionate like-minded people on this adventure!
       Let's build amazing things, learn even more and share awesome experiences from around Europe!
 
   # Info Sections
   info:
+    image: "images/INP_building.jpg"
     sections:
       - image: "images/present/1.jpg"
-        title: "LEARN."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
       - image: "images/present/9.jpg"
-        title: "BUILD."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
       - image: "images/present/6.jpg"
-        title: "SHARE."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+
     help: "Any questions related to the event? Send an email to info@hackbordeaux.com"
 
   # Abroad
@@ -81,19 +74,19 @@ event:
     description: "Are you coming from another country or city? Awesome! Join us for a tour of Bordeaux on Friday and get to meet everyone. We will take care of you  and settle everything so you can be ready for HackBordeaux the next day!"
     sections:
     help: >
-      Any questions or do want to get to know us? Send an email to [info@hackbordeaux.com](mailto:info@hackbordeaux.com) or simply contact us on <a class="go-about" href="#">social networks</a>
+      Any questions or do want to get to know us? Send an email to [info@hackbordeaux.com](mailto:info@hackbordeaux.com) or simply contact us on <a href="#about">social networks</a>
 
   # Frequently asked questions.
   faq:
     - question: "What is a hackathon?"
       answer: >
-        A [MLH](https://mlh.io) hackathon is a creative and social event where students come together, share ideas and build cool software & hardware hacks in 24 hours.
+        A [MLH](https://mlh.io) hackathon is a creative and social event where students come together, share ideas and build cool software & hardware hacks during 24 hours.
 
 
         You learn immensely, interact with startups & companies and get to meet like-minded people from around the world. Don't worry it's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl)!
     - question: "How much does it cost?"
       answer: >
-        Nothing. Attending a MLH hackathon is free, and we'd like to thank our awesome <a class="go-sponsors" href="#">sponsors</a> who made it possible!
+        Nothing. Attending a MLH hackathon is free, and we'd like to thank our awesome <a href="#sponsors">sponsors</a> who made it possible!
     - question: "Do I need to be a student to attend?"
       answer: >
         Yes. Only students who are currently enrolled at a college/university or
@@ -104,7 +97,7 @@ event:
         You can also be a [mentor](https://mlh.io/mentors) helping students during their hacks! [Contact us](mailto:info@hackbordeaux.com)!
     - question: "Where is the event?"
       answer: >
-        The event is being hosted at <a class="go-map" href="#">Bordeaux-INP, ENSEIRB-MATMECA</a>.
+        The event is being hosted at <a href="#location">Bordeaux-INP, ENSEIRB-MATMECA</a>.
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
@@ -115,7 +108,7 @@ event:
 
   # Sponsors, TODO populate and yml structure for gold, silver, bronze, general partners loop
   sponsors:
-    invite: "Interested in sponsoring HackBordeaux? Here are the [sponsorship details](http://hackbordeaux.com/public/sponsorship_levels.pdf) and send an email to [info@hackbordeaux.com](mailto:info@hackbordeaux.com)"
+    invite: "Interested in sponsoring HackBordeaux? Here are the [sponsorship details](http://hackbordeaux.com/public/sponsorship_levels.pdf)."
     im_mlh: "images/mlh.png"
     im_school: "images/bordeaux-inp.png"
 

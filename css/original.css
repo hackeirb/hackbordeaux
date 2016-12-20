@@ -10,15 +10,20 @@
 /* Montserrat Google Font */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
 /*
  * Primary Blue: #44D5FF;
  * Dark Blue: #0F2C34;
  * Primary Pink: #FF7FA8;
  */
 
-* {
-  font-family: 'Open Sans';
-  font-weight: 600;
+body {
+  /* font-family: 'Open Sans'; */
+  font-family: 'Muli', 'Helvetica','Arial','sans-serif';
+  /* font-weight: 600; */
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 body {
@@ -33,9 +38,10 @@ a {
 a:hover {
   color:#E1870E;
 }*/
-/*
+
+/***********************************************************************************************
  * Trust Badge
- */
+ ***********************************************************************************************/
 
 #mlh-trust-badge {
   display: block;
@@ -48,9 +54,12 @@ a:hover {
   z-index: 10000;
 }
 
-/*
+/***********************************************************************************************
  * Hero Section
- */
+ ***********************************************************************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
 .hero {
   background: url(../images/hero_bg1.jpg);
@@ -58,7 +67,7 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 90vh;
+  min-height: 100vh;
   padding-top: 3vh;
   color : #fff;
 }
@@ -69,7 +78,7 @@ a:hover {
 
 .hero .wrapper {
   padding-top: 0;
-  background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  /*background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));*/
 }
 /*background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));*/
 
@@ -100,7 +109,8 @@ a:hover {
   padding: 10px 30px;
 }*/
 .hero .wrapper h1 {
-  font-family: Montserrat;
+  color: #0F2C34;
+  font-family: 'Kaushan Script', cursive;
   margin-top:0;
 }
 
@@ -110,71 +120,203 @@ a:hover {
 }
 
 .hero .wrapper h3 {
-  font-family: Montserrat;
+  font-family: 'Kaushan Script', cursive;
   font-size: 20px;
   font-weight: 200;
 }
 
-.hero .buttons {
-  margin: 0 0;
-  padding-top: 60vh;
-  text-align:center;
+/* Scrolling Icon */
+#wave-scroll {
+  position: fixed;
+  bottom: 20%;
+  left: 50%;
 }
 
-.hero .buttons a {
-  background: #fff;
-  /*border: 10px solid #A30000;*/
-  border-radius: 40px;
-  color:  #0F2C34;
-  display: inline;
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 700;
-  padding: 10px 70px;
-  text-decoration: none;
-  text-transform: uppercase;
+#bird-scroll a {
+	padding-top: 70px;
+}
+#bird-scroll a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 3em;
+	height: 3em;
+	margin-left: -12px;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	-webkit-animation: sdb06 1.5s infinite;
+	animation: sdb06 1.5s infinite;
+	box-sizing: border-box;
+}
+@-webkit-keyframes sdb06 {
+	0% {
+		-webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+@keyframes sdb06 {
+	0% {
+		transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
 }
 
-.hero .buttons a:hover,
-.hero .buttons a:focus {
-  background-color:  #0F2C34;
-  color: #fff;
-  transition: all 0.2s ease;
+#wave-scroll a {
+	padding-top: 60px;
+}
+#wave-scroll a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 4em;
+	height: 4em;
+	margin-left: -23px;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	box-sizing: border-box;
+}
+#wave-scroll a span::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	content: '';
+	/*width: 16px;
+	height: 16px;*/
+  width: 1em;
+  height: 1em;
+	margin: -12px 0 0 -8px;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+}
+#wave-scroll a span::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	content: '';
+	width: 4em;
+	height: 4em;
+	box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+	border-radius: 100%;
+	opacity: 0;
+	-webkit-animation: sdb03 3s infinite;
+	animation: sdb03 3s infinite;
+	box-sizing: border-box;
+}
+@-webkit-keyframes sdb03 {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 1;
+	}
+	60% {
+		box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes sdb03 {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 1;
+	}
+	60% {
+		box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
 }
 
-.hero .buttons a:not(:last-child) {
-  margin-right: 10px;
-}
-
-/*
+/***********************************************************************************************
  * About Section
- */
+ ***********************************************************************************************/
 
 #about {
   border-width: 15px 0;
   background-color: #0F2C34;
   padding: 30px 0;
   position: relative;
-  margin-top:15px;
 }
 
 #about p {
   color:  #fff;
-  font-weight: 600;
-  font-size: 22px;
   line-height: 1.6em;
   letter-spacing: -.3px;
 }
 
+/*
 #about p span {
   font-weight: 700;
   text-transform: uppercase;
+}*/
+
+#about .buttons {
+  margin: 0 0;
+  text-align:center;
+  padding: 10vh;
+}
+/* padding-top: 60vh; */
+
+#about .buttons a {
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #fff;
+  /* background: #fff; */
+  /*border: 10px solid #A30000;*/
+  border-radius: 40px;
+  color: #fff;
+  display: inline;
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 200;
+  padding: 10px 70px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-/*
+#about .buttons a:hover,
+#about .buttons a:focus {
+  background-color:  #fff;
+  color: #0F2C34;
+  transition: all 0.2s ease;
+}
+
+.buttons a:not(:last-child) {
+  margin-right: 10px;
+}
+
+
+/***********************************************************************************************
  * Info Section
- */
-.info:before {
+ ***********************************************************************************************/
+
+#info:before {
     z-index: -1;
     position: absolute;
     left: 0;
@@ -182,18 +324,89 @@ a:hover {
     content: '';
     top: 5vh;
     display:block;
-    transform-origin: 0 0;
-    transform: skewY(-2.5deg);
-    border-top: 1.5rem #fff solid;
 }
 
-.info {
-  background-color: #0F2C34;
-  padding: 100px 0;
+#info {
+  background-color: #fff;
+  padding: 0px 0;
   position: relative;
   z-index:1;
 }
 
+#info img {
+  max-width: 100%;
+}
+
+#info .magic {
+  font-family: Montserrat;
+  color: #0F2C34;
+  margin-left: 2vw;
+  margin-top: 10vw;
+}
+
+#info h3 {
+  font-size: 4vw;
+
+}
+
+#ignite-word {
+  color: #FF851B;
+}
+
+#start-word {
+  color: #3D9970;
+}
+
+/***********************************************************************************************
+ * Gallery Section
+ ***********************************************************************************************/
+
+#gallery:before {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    top: 5vh;
+    display:block;
+}
+
+#gallery {
+  background-color: #fff;
+  padding: 0 0;
+  position: relative;
+  z-index:1;
+}
+
+#gallery {
+  font-size: 0; /* in parent, to remove whitespace of child inline-blocks */
+}
+
+#gallery .image-box {
+  width: 33.3333%;
+  display: inline-block;
+}
+
+#gallery img {
+  margin: 0;
+  max-width: 100%;
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+	.image-box {
+		width:50%;
+	}
+}
+
+@media (max-width: 600px) {
+	.image-box {
+		width:100%;
+	}
+}
+
+
+
+/*
 .info .item {
   padding: 20px;
 }
@@ -212,12 +425,12 @@ a:hover {
 
 .info .item p {
   font-size: 20px;
-}
+}*/
 
 
-/*
+/***********************************************************************************************
  * FAQ Section
- */
+ ***********************************************************************************************/
 
 .faq:before {
     z-index: -1;
@@ -227,14 +440,12 @@ a:hover {
     content: '';
     top: 0;
     display:block;
-    transform-origin: 0 0;
-    transform: skewY(-2.5deg);
-    border-top: 1.5rem #fff solid;
 }
 
 .faq {
   background-color: #0F2C34;
-  padding: 0 0;
+  padding-top: 2em;
+  padding-bottom: 4em;
   position: relative;
     z-index:1;
 
@@ -269,9 +480,49 @@ a:hover {
   width: 300px;
 }
 
-/*
- * Abroad Section
- */
+/**********************************************************************************
+ * Location Section
+ **********************************************************************************/
+
+ #location:before {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: '';
+    top: 8vh;
+    display:block;
+
+ }
+
+ #location {
+  background-color: #fff;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  position: relative;
+    z-index:1;
+  padding-bottom: 0;
+ }
+
+ #location #map {
+   margin-top: 2em;
+ }
+
+#location h1 {
+   font-family: 'Montserrat';
+   color: #0F2C34;
+   font-weight: 700;
+   margin-bottom: 2em;
+ }
+
+#location p {
+   color: #0F2C34;
+   line-height: 1.5em;
+ }
+
+/**********************************************************************************
+ * Abroad Explorers Section
+ **********************************************************************************/
 
 .abroad:before {
    z-index: -1;
@@ -281,15 +532,13 @@ a:hover {
    content: '';
    top: 8vh;
    display:block;
-   transform-origin: 0 0;
-   transform: skewY(-2.5deg);
-   border-top: 1.5rem #fff solid;
 
 }
 
 .abroad {
- background-color: #0F2C34;
- padding: 70px 0;
+ background-color: #fff;
+ padding-top: 2em;
+ padding-bottom: 4em;
  position: relative;
    z-index:1;
 }
@@ -297,18 +546,18 @@ a:hover {
 .abroad h1 {
   font-family: 'Montserrat';
   font-weight: 700;
+  color: #0F2C34;
   margin: 30px 0;
 }
 
 .abroad p {
-  font-family: 'Montserrat';
-  font-size: 18px;
+  color: #0F2C34;
   line-height: 1.5em;
 }
 
-/*
+/***********************************************************************************************
  * Sponsors Section
- */
+ ***********************************************************************************************/
 
  #sponsors {
    border-width: 15px 0;
@@ -343,9 +592,44 @@ a:hover {
    margin-top: 10vh;
  }
 
-/*
- * Footer Section
- */
+ #sponsors .buttons {
+   margin: 0 0;
+   text-align:center;
+   padding: 10vh;
+ }
+ /* padding-top: 60vh; */
+
+ #sponsors .buttons a {
+   background-color: transparent;
+   border: 1px solid;
+   border-color: #0F2C34;
+   /* background: #fff; */
+   /*border: 10px solid #A30000;*/
+   border-radius: 40px;
+   color: #0F2C34;
+   display: inline;
+   font-family: Lato;
+   font-size: 25px;
+   font-weight: 200;
+   padding: 10px 70px;
+   text-decoration: none;
+   text-transform: uppercase;
+ }
+
+ #sponsors .buttons a:hover,
+ #sponsors .buttons a:focus {
+   background-color:  #0F2C34;
+   color: #fff;
+   transition: all 0.2s ease;
+ }
+
+ .buttons a:not(:last-child) {
+   margin-right: 10px;
+ }
+
+ /***********************************************************************************************
+  * Footer Section
+  ***********************************************************************************************/
 .footer:before {
     z-index: -1;
     left: 0;
@@ -353,9 +637,6 @@ a:hover {
     content: '';
     top:0;
     display:block;
-    transform: skewY(-2.5deg);
-    transform-origin:0 0;
-    border-top: 1.5rem #fff solid;
 }
 
 .footer {
@@ -363,6 +644,7 @@ a:hover {
   color: #fff;
   padding: 70px 0;
   z-index:1;
+  position: relative; /* fix wave-scroll keep hidden */
 }
 
 .footer img {
@@ -387,6 +669,7 @@ a:hover {
     margin-top: 25vh;
   }
 
+  /*
   .hero .buttons {
     padding-top: 20vh;
     padding-bottom: 2vh;
@@ -403,7 +686,7 @@ a:hover {
 
   .hero .buttons a:not(:last-child) {
     margin-bottom: 10px;
-  }
+  }*/
 
   .hero img {
     width: 250px;

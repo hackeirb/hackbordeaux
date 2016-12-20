@@ -6,13 +6,52 @@ layout: default
 
 <section id="about">
   <div class="container">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-      {{ site.event.about.description | markdownify }}
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+        {{ site.event.about.description | markdownify }}
+      </div>
+    </div>
+    <div class="row links">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+        <div class="buttons">
+          <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id=0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee&amp;redirect_uri=https://mlh.github.io/mlh-hackathon-boilerplate/success.html&amp;response_type=token">Apply</a>
+            <!--
+            {% for link in site.event.hero.links %}
+              {% if link.href %}
+                <a href="{{ link.href }}">{{ link.text }}</a>
+              {% elsif link.my_mlh %}
+                <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>
+                {% endif %}
+            {% endfor %}
+          -->
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="info">
+<section id="info">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 text-center">
+      <img src="{{ site.event.info.image }}" alt="" />
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <div class="magic">
+        <h3><span id="ignite-word">Ignite</span> your passion</h3>
+        <h3><span id="start-word">Start</span> hacking</h3>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="gallery">
+  {% for section in site.event.info.sections %}
+    <div class="image-box">
+      <img src="{{ section.image }}" />
+    </div>
+  {% endfor %}
+  <!--
   <div class="container">
     <div class="items row">
       {% for section in site.event.info.sections %}
@@ -22,6 +61,21 @@ layout: default
           </div>
         </div>
       {% endfor %}
+    </div>
+  </div>
+-->
+</section>
+
+<section class="abroad">
+  <div class="container">
+    <h1 class="text-center">Explorers</h1>
+    <div class="row">
+      <p>
+        {{ site.event.abroad.description | markdownify }}
+      </p>
+      <p>
+        {{ site.event.abroad.help | markdownify }}
+      </p>
     </div>
   </div>
 </section>
@@ -43,21 +97,17 @@ layout: default
   </div>
 </section>
 
-<section class="abroad">
+<section id="location">
   <div class="container">
-    <h1 class="text-center">Coming from abroad!</h1>
-    <div class="row">
+    <h1 class="text-center">Location</h1>
+    <div class="row text-center">
       <p>
-        {{ site.event.abroad.description | markdownify }}
-      </p>
-      <p>
-        {{ site.event.abroad.help | markdownify }}
+        Bordeaux-INP, ENSEIRB-MATMECA, 1 Avenue du Dr Albert Schweitzer, 33400 Talence
       </p>
     </div>
   </div>
+  <div id="map" style="width:100%;height:500px"></div>
 </section>
-
-<div id="map" style="width:100%;height:500px"></div>
 
 <section id="sponsors">
   <div class="container">
@@ -78,6 +128,9 @@ layout: default
       <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
         {{ site.event.sponsors.invite | markdownify }}
       </div>
+    </div>
+    <div class="buttons">
+        <a href="mailto:sponsor@hackbordeaux.com">Sponsor</a>
     </div>
    </div>
   </div>

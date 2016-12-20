@@ -1,7 +1,7 @@
 $(document).ready(function() {
+  var speed = 500;
 
-  var speed = 2000;
-
+  /*
   $(".go-sponsors").on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({
@@ -21,5 +21,11 @@ $(document).ready(function() {
     $('html, body').animate({
         scrollTop: $("#about").offset().top
     }, speed);
-  });
+  });*/
+
+  $("a[href*='#']").on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+	});
+
 });

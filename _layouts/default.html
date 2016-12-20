@@ -3,6 +3,7 @@
   {% include head.html %}
 
   <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
+
     {% include trust_badge.html %}
 
     {{ content }}
@@ -10,7 +11,9 @@
     <section class="footer">
       <div class="container text-center">
         <h1>{{ site.event.name }}</h1>
-        <h3>&copy; 2016 {{ site.event.name }}. Template by <a href="https://github.com/nlaz">Niko Lazaris</a>.</h3>
+        <h3>Made with ♥ by {{ site.event.name }}, <a href="https://mlh.io">MLH</a>, <a href="https://github.com/nlaz">Niko Lazaris</a></h3>
+        <p><a href="mailto:info@hackbordeaux.com">info@hackbordeaux.com</a></p>
+        <p><a href="mailto:sponsor@hackbordeaux.com">sponsor@hackbordeaux.com</a></p>
       </div>
     </section>
 
