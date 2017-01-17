@@ -8,6 +8,27 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+        {{ site.event.about.description | markdownify }}
+      </div>
+    </div>
+    <div class="row links">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+        <div class="buttons">
+          <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id=de93c49c3e6ec566b27d9cd20a5bebe2a652b9412f73a9f8185b070cd425c68c&amp;redirect_uri=http%3A%2F%2Fhackbordeaux.com&amp;response_type=token">Apply</a>
+            <!--
+            {% for link in site.event.hero.links %}
+              {% if link.href %}
+                <a href="{{ link.href }}">{{ link.text }}</a>
+              {% elsif link.my_mlh %}
+                <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>
+                {% endif %}
+            {% endfor %}
+          -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
         <ul id="social-networks" class="list-inline">
           <li>
             <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
@@ -28,27 +49,6 @@ layout: default
             <a href="#"><i class="fa fa-medium fa-fw fa-3x"></i></a>
           </li>
         </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-        {{ site.event.about.description | markdownify }}
-      </div>
-    </div>
-    <div class="row links">
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-        <div class="buttons">
-          <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id=de93c49c3e6ec566b27d9cd20a5bebe2a652b9412f73a9f8185b070cd425c68c&amp;redirect_uri=http%3A%2F%2Fhackbordeaux.com&amp;response_type=token">Apply</a>
-            <!--
-            {% for link in site.event.hero.links %}
-              {% if link.href %}
-                <a href="{{ link.href }}">{{ link.text }}</a>
-              {% elsif link.my_mlh %}
-                <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>
-                {% endif %}
-            {% endfor %}
-          -->
-        </div>
       </div>
     </div>
   </div>
