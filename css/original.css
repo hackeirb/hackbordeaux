@@ -79,7 +79,8 @@ a:hover {
 }
 
 .hero img {
-	max-height:320px;
+  border-radius : 5px;
+  padding-bottom:0;
 }
 
 .hero .wrapper {
@@ -100,6 +101,7 @@ a:hover {
 }
 
 .hero hr {
+	display:none;
     border-top: 3px solid #fff;
     margin: auto;
     width: 75%;
