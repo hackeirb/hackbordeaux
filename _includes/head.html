@@ -4,6 +4,7 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.event.name }}{% endif %}</title>
 
+
   <meta name="viewport"    content="width=device-width, initial-scale=1">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.seo.description }}{% endif %}">
 
@@ -29,8 +30,9 @@
   <link rel="stylesheet" type="text/css" href="{{ '/css/bootstrap.min.css' | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="stylesheet" type="text/css" href="{{ '/css/base.css' | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="stylesheet" type="text/css" href="{{ '/css/' | prepend: site.baseurl | prepend: site.url }}{{ site.style.theme | append: '.css' }}" />
-  <!-- link rel="icon" href="/img/favicon.ico" -->
-
+  <link rel="icon" type="images/ico" href="favicon.ico" />
+  <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
+  
   <!-- Javascript -->
   <script src="{{ '/js/jquery-3.1.1.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
   <script src="{{ '/js/main.js' | prepend: site.baseurl | prepend: site.url }}"></script>
