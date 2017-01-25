@@ -36,6 +36,7 @@ event:
   description: "Student-run hackathon"
   date:        "April 2017"
   location:    "ENSEIRB-MATMECA, Bordeaux, France"
+  image:       "images/logo.png"
 
   trust_badge:
     year:   "2017"  # season year
