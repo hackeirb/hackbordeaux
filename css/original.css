@@ -133,6 +133,10 @@ a:hover {
   text-align: center;   /* to center child icon wave-scroll*/
 }
 
+.wave-wrapper {
+  text-align:center;
+}
+
 #wave-scroll {
   display: inline-block;
   position: fixed;
