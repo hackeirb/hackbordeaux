@@ -640,11 +640,11 @@ a:hover {
  #sponsors .buttons a {
    background-color: transparent;
    border: 1px solid;
-   border-color: #0F2C34;
+   border-color: #00B189;
    /* background: #fff; */
    /*border: 10px solid #A30000;*/
    border-radius: 40px;
-   color: #0F2C34;
+   color: #00B189;
    display: inline;
    font-family: Lato;
    font-size: 25px;
@@ -656,7 +656,7 @@ a:hover {
 
  #sponsors .buttons a:hover,
  #sponsors .buttons a:focus {
-   background-color:  #0F2C34;
+   background-color: #00B189;
    color: #fff;
    transition: all 0.2s ease;
  }
