@@ -99,7 +99,9 @@ layout: default
       <p>
         {{ site.event.abroad.description | markdownify }}
       </p>
-      <iframe class ="wrapper_vid" src={{ site.event.abroad.video }} frameborder="0" allowfullscreen></iframe>
+      <div class="videoWrapper">
+        <iframe src={{ site.event.abroad.video }} frameborder="0" allowfullscreen></iframe>
+      </div>
       <p>
         {{ site.event.abroad.help | markdownify }}
       </p>
