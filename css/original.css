@@ -112,17 +112,20 @@ a:hover {
   padding: 10px 30px;
 }*/
 .hero .wrapper h1 {
+  display:none;
   color: #0F2C34;
   font-family: 'Kaushan Script', cursive;
   margin-top:0;
 }
 
 .hero .wrapper h2 {
+  display:none;
   font-size: 28px;
   font-weight: 200;
 }
 
 .hero .wrapper h3 {
+  display:none;
   font-family: 'Kaushan Script', cursive;
   font-size: 20px;
   font-weight: 200;
@@ -677,7 +680,12 @@ a:hover {
 
 @media(max-width: 768px) {
 
-
+.hero img{
+  display:none;
+}
+.hero wrapper{
+  display:inline;
+}
   /*
   .hero .buttons {
     padding-top: 20vh;
