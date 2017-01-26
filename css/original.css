@@ -115,17 +115,20 @@ a:hover {
 .hero .wrapper h1 {
   font-family: 'Kaushan Script', cursive;
   margin-top:0;
+  text-align:center;
 }
 
 .hero .wrapper h2 {
   font-size: 28px;
   font-weight: 200;
+  text-align:center;
 }
 
 .hero .wrapper h3 {
   font-family: 'Kaushan Script', cursive;
   font-size: 20px;
   font-weight: 200;
+  text-align:center;
 }
 
 /* Scrolling Icon */
