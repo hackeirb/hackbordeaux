@@ -78,7 +78,8 @@ a:hover {
 }
 
 .hero img {
-	max-height:200px;
+    max-height: 150px;
+    max-width: 100%;
 }
 
 .hero .wrapper {
@@ -675,9 +676,7 @@ a:hover {
 }
 
 @media(max-width: 768px) {
-  .hero .wrapper {
-    margin-top: 25vh;
-  }
+
 
   /*
   .hero .buttons {
@@ -698,9 +697,6 @@ a:hover {
     margin-bottom: 10px;
   }*/
 
-  .hero img {
-    width: 250px;
-  }
 }
 
 .clicker {
