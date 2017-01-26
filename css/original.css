@@ -677,7 +677,7 @@ a:hover {
 }
 
 @media(min-width: 769px){
-.hero h1 h2 h3{
+.hero .wrapper h1 h2 h3{
   display:none;
 }
 }
