@@ -74,37 +74,32 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
-  padding-top: 3vh;
   color : #fff;
 }
 
 .hero img {
-  border-radius : 5px;
+	max-height:200px;
 }
 
 .hero .wrapper {
-  padding-bottom: 0;
   /*background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));*/
 }
 /*background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));*/
 
 .hero {
-  text-align: center;
 }
 
 .wrapper {
   margin: 0 auto;
   display: inline-block;
-  padding: 5px;
-  border-radius: 10px;
 }
 
-.hero hr {
+/*.hero hr {
 	display:none;
     border-top: 3px solid #fff;
     margin: auto;
     width: 75%;
-}
+}*/
 
 /*.hero .wrapper h1 {
   background: #fff;
