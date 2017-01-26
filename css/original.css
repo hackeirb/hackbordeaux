@@ -74,7 +74,7 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
-  color : #fff;	
+  color : #fff;
 }
 
 .hero img {
@@ -290,7 +290,7 @@ a:hover {
 }
 
 #about .fa {
-  color: #fff;
+  color: #00B189;
 }
 
 /*
@@ -309,11 +309,11 @@ a:hover {
 #about .buttons a {
   background-color: transparent;
   border: 1px solid;
-  border-color: #fff;
+  border-color: #00B189;
   /* background: #fff; */
   /*border: 10px solid #A30000;*/
   border-radius: 40px;
-  color: #fff;
+  color: #00B189;
   display: inline;
   font-family: Lato;
   font-size: 25px;
@@ -325,7 +325,7 @@ a:hover {
 
 #about .buttons a:hover,
 #about .buttons a:focus {
-  background-color:  #fff;
+  background-color: #00B189;
   color: #0F2C34;
   transition: all 0.2s ease;
 }
@@ -707,7 +707,7 @@ a:hover {
 .hero .wrapper h1 h2 h3{
   display:block;
 }
-	
+
 .hero img{
   display:none;
 }
