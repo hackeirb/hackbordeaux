@@ -96,15 +96,15 @@ layout: default
   <div class="container">
     <h1 class="text-center">Explorers</h1>
     <div class="row">
-      <p>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
         {{ site.event.abroad.description | markdownify }}
-      </p>
+      </div>
       <div class="videoWrapper">
         <iframe src={{ site.event.abroad.video }} frameborder="0" allowfullscreen></iframe>
       </div>
-      <p>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
         {{ site.event.abroad.help | markdownify }}
-      </p>
+      </div>
     </div>
   </div>
 </section>
