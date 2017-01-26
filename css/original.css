@@ -84,6 +84,7 @@ a:hover {
 
 .hero .wrapper {
   text-align:center;
+  padding-top:10vh;
   /*background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));*/
 }
 /*background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));*/
@@ -113,8 +114,8 @@ a:hover {
   padding: 10px 30px;
 }*/
 .hero .wrapper h1 {
-  font-family: 'Kaushan Script', cursive;
-  margin-top:0;
+  font-family: 'Montserrat';
+  /*margin-top:0;*/
   text-align:center;
 }
 
@@ -125,7 +126,7 @@ a:hover {
 }
 
 .hero .wrapper h3 {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Montserrat';
   font-size: 20px;
   font-weight: 200;
   text-align:center;
