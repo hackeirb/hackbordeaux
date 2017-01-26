@@ -32,10 +32,10 @@ seo:
 
 # Event information.
 event:
-  # name:        "HackBordeaux"
-  # description: "Student-run hackathon"
-  # date:        "April 2017"
-  # location:    "ENSEIRB-MATMECA, Bordeaux, France"
+  name:        "HackBordeaux"
+  description: "Student-run hackathon"
+  date:        "April 2017"
+  location:    "ENSEIRB-MATMECA, Bordeaux, France"
   image:       "images/banner.png"
 
   trust_badge:
