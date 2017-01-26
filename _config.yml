@@ -76,7 +76,7 @@ event:
     sections:
     help: >
       Any questions or do want to get to know us? Send an email to [info@hackbordeaux.com](mailto:info@hackbordeaux.com) or simply contact us on <a href="#about">social networks</a>
-
+    video : "https://www.youtube.com/embed/VaZA-qD22X0"
   # Frequently asked questions.
   faq:
     - question: "What is a hackathon?"
