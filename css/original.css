@@ -291,6 +291,7 @@ a:hover {
 
 #about .fa {
   color: #00B189;
+  font-size:2em;
 }
 
 /*
@@ -302,25 +303,29 @@ a:hover {
 #about .buttons {
   margin: 0 0;
   text-align:center;
-  padding: 5vh;
+  padding: 2.8vh;
 }
 /* padding-top: 60vh; */
 
 #about .buttons a {
   background-color: transparent;
-  border: 1px solid;
+  border: 3px solid;
   border-color: #00B189;
   /* background: #fff; */
   /*border: 10px solid #A30000;*/
-  border-radius: 40px;
+  border-radius: 10px;
   color: #00B189;
   display: inline;
-  font-family: Lato;
+  font-family: Montserrat;
   font-size: 25px;
   font-weight: 200;
-  padding: 10px 70px;
+  padding: 10px 55px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+#social-networks{
+  margin-bottom: 0;
 }
 
 #about .buttons a:hover,
@@ -639,17 +644,17 @@ a:hover {
 
  #sponsors .buttons a {
    background-color: transparent;
-   border: 1px solid;
+   border: 3px solid;
    border-color: #00B189;
    /* background: #fff; */
    /*border: 10px solid #A30000;*/
-   border-radius: 40px;
-   color: #00B189;
+   border-radius: 10px;
+   color: #0F2C34;
    display: inline;
-   font-family: Lato;
+   font-family: Montserrat;
    font-size: 25px;
    font-weight: 200;
-   padding: 10px 70px;
+   padding: 10px 55px;
    text-decoration: none;
    text-transform: uppercase;
  }
