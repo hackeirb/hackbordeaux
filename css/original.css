@@ -706,7 +706,8 @@ a:hover {
   color: #fff;
 }
 
-@media (max-width: @screen-sm-max) { 
+@media (max-width: 767px) {
+	
   .hero .wrapper {
     text-align:center;
     background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
@@ -716,10 +717,10 @@ a:hover {
     margin-right: auto;
   }
 	
-.hero img{
-  display:none;
+  .hero img{
+    display:none;
+  }
 }
-
   /*
   .hero .buttons {
     padding-top: 20vh;
@@ -739,7 +740,7 @@ a:hover {
     margin-bottom: 10px;
   }*/
 
-}
+
 
 .clicker {
   cursor:pointer;
