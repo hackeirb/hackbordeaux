@@ -37,6 +37,7 @@ event:
   date:        "April 2017"
   location:    "ENSEIRB-MATMECA, Bordeaux, France"
   image:       "images/banner3.png"
+  logo:        "images/logo.png"
 
   trust_badge:
     year:   "2017"  # season year
