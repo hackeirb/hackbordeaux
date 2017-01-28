@@ -77,16 +77,6 @@ a:hover {
   color : #fff;
 }
 
-@media (max-width: @screen-sm-max) { 
-  .hero .wrapper {
-    text-align:center;
-    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
-    width:100%;
-    padding-bottom: 62.5vh;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 .hero img {
     max-height: 150px;
@@ -716,12 +706,17 @@ a:hover {
   color: #fff;
 }
 
-@media(max-width: 768px) {
-
-.hero .wrapper h1 h2 h3{
-  display:block;
+@media (max-width: @screen-sm-max) { 
+  .hero .wrapper {
+    text-align:center;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    width:100%;
+    padding-bottom: 62.5vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-
+	
 .hero img{
   display:none;
 }
