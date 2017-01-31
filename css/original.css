@@ -17,7 +17,10 @@
  * Dark Blue: #0F2C34;
  * Primary Pink: #FF7FA8;
  */
-
+.row {
+  margin-right:0;
+  margin-left:0;
+}
 body {
   /* font-family: 'Open Sans'; */
   font-family: 'Muli', 'Helvetica','Arial','sans-serif';
