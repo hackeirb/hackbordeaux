@@ -26,7 +26,7 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "HackBordeaux | April 2017"
+  title:       "HackBordeaux | 6th-7th May 2017"
   description: "Student-run hackathon at ENSEIRB-MATMECA, Bordeaux, France"
   image:       "https://www.bordeaux-inp.fr/system/files/enseirb-matmeca_0.jpg"
 
@@ -34,7 +34,7 @@ seo:
 event:
   name:        "HackBordeaux"
   description: "Student-run hackathon"
-  date:        "April 2017"
+  date:        "6th-7th May 2017"
   location:    "ENSEIRB-MATMECA, Bordeaux, France"
   image:       "images/banner3.png"
 
