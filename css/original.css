@@ -596,6 +596,14 @@ a:hover {
 	height: 100%;
 }
 
+.abroad-description {
+  margin-bottom: 2em;
+}
+
+.abroad-help {
+  margin-top: 2em;
+}
+
 /***********************************************************************************************
  * Sponsors Section
  ***********************************************************************************************/
@@ -706,7 +714,7 @@ a:hover {
 }
 
 @media (max-width: 991px) {
-	
+
   .hero .wrapper {
     text-align:center;
     background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
@@ -716,7 +724,7 @@ a:hover {
     margin-right: auto;
     padding-top: 20vh;
   }
-  
+
   #logo {
    margin-left:auto;
    margin-right:auto;

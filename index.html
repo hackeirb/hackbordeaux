@@ -48,7 +48,7 @@ layout: default
           </li>
           <li>
             <a href="#"><i class="fa fa-medium fa-fw fa-3x"></i></a>
-          </li> 
+          </li>
 -->
         </ul>
       </div>
@@ -97,7 +97,7 @@ layout: default
     <h1 class="text-center">Explorers</h1>
     <div class="row">
       <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-        <p>
+        <p class="abroad-description">
           {{ site.event.abroad.description | markdownify }}
         </p>
       </div>
@@ -105,7 +105,9 @@ layout: default
         <iframe src={{ site.event.abroad.video }} frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-        {{ site.event.abroad.help | markdownify }}
+        <p class="abroad-help">
+          {{ site.event.abroad.help | markdownify }}
+        </p>
       </div>
     </div>
   </div>
