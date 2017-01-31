@@ -14,7 +14,7 @@
   <meta name="twitter:creator"     content="@{{ site.social.twitter_handle }}" />
   <meta name="twitter:title"       content="{{ site.seo.title }}">
   <meta name="twitter:description" content="{{ site.seo.description }}">
-  {% if site.seo.image %}<meta name="twitter:image" content="{{ site.seo.image }}">{% endif %}
+  <meta name="twitter:image" content="{{ site.event.hero.image }}">
 
   <!-- Open Graph -->
   <meta property="og:site_name"   content="{{ site.event.name }}" />
@@ -22,7 +22,7 @@
   <meta property="og:url"         content="{{ site.baseurl | prepend: site.url }}" />
   <meta property="og:title"       content="{{ site.seo.title }}" />
   <meta property="og:description" content="{{ site.seo.description }}" />
-  {% if site.seo.image %}<meta property="og:image" content="{{ site.seo.image }}" />{% endif %}
+  <meta property="og:image" content="{{ site.event.hero.image }}" />
 
   <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic,400italic,700italic" />
