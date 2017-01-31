@@ -363,7 +363,12 @@ a:hover {
 }
 
 #info img {
-  max-width: 100%;
+  width: 100%;
+}
+
+#info .row .div {
+  padding-left:0;
+  padding-right:0;
 }
 
 #info .magic {
