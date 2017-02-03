@@ -36,7 +36,7 @@ event:
   description: "Student-run hackathon"
   date:        "6th-7th May 2017"
   location:    "ENSEIRB-MATMECA, Bordeaux, France"
-  image:       "images/banner.png"
+  image:       "/images/banner.png"
 
   trust_badge:
     year:   "2017"  # season year
@@ -44,7 +44,7 @@ event:
     color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
-    image: "images/logo.png"
+    image: "/images/logo.png"
     links:
       #- text: "Apply"
         #my_mlh:
