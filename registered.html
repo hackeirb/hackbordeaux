@@ -1,5 +1,12 @@
 <html>
-<div w3-include-html="/_includes/head.html"></div>
+  <head>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic,400italic,700italic" />
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ '/css/bootstrap.min.css' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="stylesheet" type="text/css" href="{{ '/css/base.css' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="stylesheet" type="text/css" href="{{ '/css/' | prepend: site.baseurl | prepend: site.url }}{{ site.style.theme | append: '.css' }}" />
+  </head>
+  
 <body>
 <div class="alert alert-success fade in">
   <a href="http://www.hackbordeaux.com" class="close" data-dismiss="success" aria-label="close">&times;</a>
