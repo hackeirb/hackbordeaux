@@ -1,6 +1,6 @@
 body {
   background-image:url("images/bg.png");
-  background-repeat: repeat-x repeat-y;
+  background-repeat: repeat;
 }
 
 .container {
