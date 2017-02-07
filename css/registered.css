@@ -22,10 +22,10 @@ img {
   margin-right: auto;
 }
 
-h1 {
+#content h1 {
   font-size: 34px;
 }
 
-p {
+#content p {
   font-size: 14px;
 }
