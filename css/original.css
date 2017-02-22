@@ -616,6 +616,12 @@ a:hover {
  * Sponsors Section
  ***********************************************************************************************/
 
+#sponsors .item {
+    width: 30vw;
+    height: 15vw;
+    padding-bottom: 3vw;
+    padding-right: 3vw;
+}
  #sponsors {
    border-width: 15px 0;
    background-color: #FFFFFF;
@@ -625,7 +631,7 @@ a:hover {
    color: #0F2C34;
  }
 
- #sponsors h1 {
+#sponsors h1 {
    font-family: 'Montserrat';
    font-weight: 700;
    margin: 30px 0;
