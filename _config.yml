@@ -113,6 +113,11 @@ event:
     invite: "Interested in sponsoring HackBordeaux?"
     im_mlh: "images/mlh.png"
     im_school: "images/bordeaux-inp.png"
+    im_dell: "images/dell.svg"
+    im_windows: "images/windows.svg"
+    im_github: "images/github.svg"
+    im_bbg: "images/bloomberg.svg"
+    im_aws: "images/amazon-web-services.svg"
 
   # This is the message you'll receive once you've registered.
   register:
