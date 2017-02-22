@@ -111,6 +111,7 @@ event:
   # Sponsors, TODO populate and yml structure for gold, silver, bronze, general partners loop
   sponsors:
     invite: "Interested in sponsoring HackBordeaux?"
+    logos:
     - image : "images/mlh.png"
     - image : "images/bordeaux-inp.png"
     - image : "images/dell.svg"
