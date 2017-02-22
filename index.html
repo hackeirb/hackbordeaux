@@ -147,10 +147,10 @@ layout: default
     <h1 class="text-center">Sponsors</h1>
     <div class="row partners">
 
-      {% for sponsor in site.event.sponsors %}
+      {% for logo in site.event.sponsors.logos %}
       <div class="col-xs-12 col-sm-4 col-sm-offset-4 text-center">
         <div class="item">
-          <img src="{{ sponsor.image }}" />
+          <img src="{{ logo.image }}" />
         </div>
       </div>
       {% endfor %}
