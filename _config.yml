@@ -114,8 +114,6 @@ event:
     logos:
     - image : "images/mlh.png"
     - image : "images/bordeaux-inp.png"
-    - image : "images/dell.svg"
-    - image : "images/windows.svg"
     - image : "images/github.svg"
     - image : "images/bloomberg.svg"
     - image : "images/amazon-web-services.svg"
