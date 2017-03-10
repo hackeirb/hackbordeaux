@@ -647,6 +647,10 @@ a:hover {
    margin-top: 10vh;
 }
 
+.title-gold {
+   background-color: #FFD700;
+}
+
 .gold .item {
    margin-left: auto;
    margin-right: auto;
