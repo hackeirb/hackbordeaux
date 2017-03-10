@@ -641,13 +641,23 @@ a:hover {
    font-family: 'Montserrat';
    font-size: 18px;
    line-height: 1.5em;
- }
+}
 
- .partners {
+.gold {
    margin-top: 10vh;
- }
+}
 
- .partners img {
+.gold img {
+    max-width: 20vw;
+    max-height: 15vw;
+    padding: 1vw; 
+}
+
+.partners {
+   margin-top: 10vh;
+}
+
+.partners img {
     max-width: 20vw;
     max-height: 15vw;
     padding: 1vw; 
