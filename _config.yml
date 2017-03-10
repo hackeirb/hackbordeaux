@@ -113,12 +113,18 @@ event:
     invite: "Interested in sponsoring HackBordeaux?"
     gold:
     - image : "images/sponsors/newmips.png"
+      link: "https://www.newmips.com"
     partners:
     - image : "images/sponsors/partners/mlh.png"
+      link: "https://mlh.io"
     - image : "images/sponsors/partners/bordeaux-inp.png"
+      link: "https://www.enseirb-matmeca.fr"
     - image : "images/sponsors/partners/github.svg"
+      link: "https://github.com"
     - image : "images/sponsors/partners/bloomberg.svg"
+      link: "https://bloomberg.com"
     - image : "images/sponsors/partners/amazon-web-services.svg"
+      link: "https://aws.amazon.com"
 
   # This is the message you'll receive once you've registered.
   register:

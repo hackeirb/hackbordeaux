@@ -149,7 +149,7 @@ layout: default
       {% for logo in site.event.sponsors.gold %}
       <div class="col-sm-offset-2 col-xs-12 col-sm-8 text-center">
         <div class="item">
-          <img src="{{ logo.image }}" />
+          <a href="{{ logo.link }}"><img src="{{ logo.image }}" /></a>
         </div>
       </div>
       {% endfor %}
@@ -161,7 +161,7 @@ layout: default
       {% for logo in site.event.sponsors.partners %}
       <div class="col-xs-12 col-sm-4 text-center">
         <div class="item">
-          <img src="{{ logo.image }}" />
+          <a href="{{ logo.link }}"> <img src="{{ logo.image }}" /></a>
         </div>
       </div>
       {% endfor %}
