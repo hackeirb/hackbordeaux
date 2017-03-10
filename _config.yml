@@ -118,7 +118,7 @@ event:
     - image : "images/sponsors/partners/mlh.png"
       link: "https://mlh.io"
     - image : "images/sponsors/partners/bordeaux-inp.png"
-      link: "https://www.enseirb-matmeca.fr"
+      link: "https://enseirb-matmeca.bordeaux-inp.fr"
     - image : "images/sponsors/partners/github.svg"
       link: "https://github.com"
     - image : "images/sponsors/partners/bloomberg.svg"
