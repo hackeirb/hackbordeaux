@@ -144,10 +144,21 @@ layout: default
 
 <section id="sponsors">
   <div class="container">
+    <h1 class="text-center">Gold Sponsor</h1>
+    <div class="row gold">
+      {% for logo in site.event.sponsors.gold %}
+      <div class="col-xs-12 col-sm-4 text-center">
+        <div class="item">
+          <img src="{{ logo.image }}" />
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
     <h1 class="text-center">General Partners</h1>
     <div class="row partners">
 
-      {% for logo in site.event.sponsors.logos %}
+      {% for logo in site.event.sponsors.partners %}
       <div class="col-xs-12 col-sm-4 text-center">
         <div class="item">
           <img src="{{ logo.image }}" />
