@@ -647,15 +647,15 @@ a:hover {
    margin-top: 10vh;
 }
 
-.gold item {
+.gold .item {
    margin-left: auto;
    margin-right: auto;
    display: block;
 }
 
 .gold img {
-    max-width: 20vw;
-    max-height: 15vw;
+    max-width: 50vw;
+    max-height: 50vw;
     padding: 1vw; 
 }
 
