@@ -71,6 +71,27 @@ layout: default
 
 </section>
 
+<section id="gallery">
+  {% for section in site.event.info.sections %}
+    <div class="image-box">
+      <img src="{{ section.image }}" />
+    </div>
+  {% endfor %}
+  <!--
+  <div class="container">
+    <div class="items row">
+      {% for section in site.event.info.sections %}
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div class="item">
+            <img src="{{ section.image }}" />
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+-->
+</section>
+
 <section id="schedule">
   <div class="row">
     <div id = "info-planning-sat" class="col-xs-12 col-sm-6 text-center">
@@ -111,27 +132,6 @@ layout: default
     </div>
   </div>
 
-</section>
-
-<section id="gallery">
-  {% for section in site.event.info.sections %}
-    <div class="image-box">
-      <img src="{{ section.image }}" />
-    </div>
-  {% endfor %}
-  <!--
-  <div class="container">
-    <div class="items row">
-      {% for section in site.event.info.sections %}
-        <div class="col-xs-12 col-sm-4 text-center">
-          <div class="item">
-            <img src="{{ section.image }}" />
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
--->
 </section>
 
 <section class="abroad">
