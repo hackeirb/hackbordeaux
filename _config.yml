@@ -60,12 +60,12 @@ event:
 
       So come join up to 200 passionate like-minded people on this adventure!
       Let's build amazing things, learn even more and share awesome experiences from around Europe!
-  
+
   #planning data
   planning:
     saturday:
     - time: "09:00 AM"
-      content: "Registering at the welcoming area"
+      content: "Registering, welcoming area"
     - time: "09:30 AM"
       content: "Chilling, breakfast, getting to know everyone"
     - time: "10:30 AM"
@@ -74,36 +74,36 @@ event:
       content: "Pairing up session"
     - time: "12:30 PM"
       content: "Hacking starts !"
-    - time: "1:00 PM"
+    - time: "01:00 PM"
       content: "Lunch"
-    - time: "2:00 PM"
-      content: "Parallel workshops/activities/mini-events"
-    - time: "7:00 PM"
+    - time: "02:00 PM"
+      content: "Parallel workshops | activities | mini-events"
+    - time: "07:00 PM"
       content: "Dinner"
     - time: "07:30 PM"
-      content: "Parallel activities/mini-events"
+      content: "Parallel activities | mini-events"
     - time: "10:00 PM"
       content: "Resting areas open"
     - time: "12:00 AM"
-      content: "Midnight pizza!"
+      content: "Midnight pizza !"
     sunday:
     - time: "08:30 AM"
       content: "Breakfast"
     - time: "12:30 PM"
-      content: "Hacking ends!"
+      content: "Hacking ends !"
     - time: "01:00 PM"
       content: "Lunch"
     - time: "02:00 PM"
       content: "Hacking Expo"
     - time: "03:45 PM"
       content: "Challenges winners announced"
-    - time: "4:00 PM"
+    - time: "04:00 PM"
       content: "Challenges winners presentations"
-    - time: "5:00 PM"
-      content: "1st/2nd/3rd places winners announced"
-    - time: "5:15 PM"
+    - time: "05:00 PM"
+      content: "1st | 2nd | 3rd places winners announced"
+    - time: "05:00 PM"
       content: "Ending ceremony"
-            
+
       # Info Sections
   info:
     image: "images/INP_building.jpg"
