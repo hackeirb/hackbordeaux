@@ -63,44 +63,44 @@ event:
   planning:
     saturday :
       - time: "09:00 AM"
-      Registering at the welcoming area
+      content: Registering at the welcoming area
       - time: "09:30 AM"
-      Chilling, breakfast, getting to know everyone
+      content: Chilling, breakfast, getting to know everyone
       - time: "10:30 AM"
-      Opening ceremony
+      content: Opening ceremony
       - time: "12:00 PM"
-      Pairing ceremony
+      content: Pairing ceremony
       - time: "12:30 PM"
-      Hacking starts !
+      content: Hacking starts !
       - time: "1:00 PM"
-      Lunch
+      content: Lunch
       - time: "2:00 PM"
-      Parallel workshops/activities/mini-events
+      content: Parallel workshops/activities/mini-events
       - time: "7:00 PM"
-      Dinner
+      content: Dinner
       - time: "07:30 PM"
-      Parallel activities/mini-events
+      content: Parallel activities/mini-events
       - time: "10:00 PM"
-      Resting areas open
+      content: Resting areas open
       - time: "12:00 AM"
-      Midnight pizza!
+      content: Midnight pizza!
    sunday :
       - time: "08:30 AM"
-      Breakfast
+      content: Breakfast
       - time: "12:30 PM"
-      Hacking ends!
+      content: Hacking ends!
       - time: "01:00 PM"
-      Lunch
+      content: Lunch
       - time: "02:00 PM"
-      Hacking Expo
+      content: Hacking Expo
       - time: "03:45 PM"
-      Challenges winners announced
+      content: Challenges winners announced
       - time: "4:00 PM"
-      Challenges winners presentations 
+      content: Challenges winners presentations 
       - time: "5:00 PM"
-      1st/2nd/3rd places winners announced
+      content: 1st/2nd/3rd places winners announced
       - time: "5:15 PM"
-      Ending ceremony
+      content: Ending ceremony
             
       # Info Sections
   info:
