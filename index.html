@@ -71,6 +71,48 @@ layout: default
 
 </section>
 
+<section id="schedule">
+  <div class="row">
+    <div id = "info-planning-sat" class="col-xs-12 col-sm-6 text-center">
+      <div class="table-responsive">
+        {% for slice in site.planning.saturday %}
+        <table class="table">
+          <tbody>      
+            <tr>
+              <td>
+                {{ slice.time }}
+              </td>
+              <td>
+                {{ slice.content }}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        {% endfor %}
+      </div>
+    </div>
+    <div id = "info-planning-sun" class="col-xs-12 col-sm-6 text-center">
+      <div class="table-responsive">
+        {% for slice in site.planning.sunday %}
+        <table class="table">
+          <tbody>      
+            <tr>
+              <td>
+                {{ slice.time }}
+              </td>
+              <td>
+                {{ slice.content }}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+</section>
+
 <section id="gallery">
   {% for section in site.event.info.sections %}
     <div class="image-box">
