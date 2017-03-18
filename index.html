@@ -95,8 +95,13 @@ layout: default
 <section id="schedule">
   <div class="row">
     <div id = "info-planning-sat" class="col-xs-12 col-sm-6">
-      <div class="table-responsive table-hover">
+      <div class="table-hover">
         <table class="table">
+          <thead>
+            <th>
+              Saturday
+            </th>
+          </thead>
           <tbody>
           {% for slice in site.event.planning.saturday %}
             <tr>
@@ -113,8 +118,13 @@ layout: default
       </div>
     </div>
     <div id = "info-planning-sun" class="col-xs-12 col-sm-6">
-      <div class="table-responsive table-hover">
+      <div class="table-hover">
         <table class="table">
+          <thead>
+            <th>
+              Sunday
+            </th>
+          </thead>
           <tbody>      
           {% for slice in site.event.planning.sunday %} 
             <tr>
