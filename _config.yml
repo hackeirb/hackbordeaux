@@ -61,7 +61,7 @@ event:
       So come join up to 200 passionate like-minded people on this adventure!
       Let's build amazing things, learn even more and share awesome experiences from around Europe!
   planning:
-    saturday :
+    saturday:
       - time: "09:00 AM"
       content: "Registering at the welcoming area"
       - time: "09:30 AM"
@@ -84,7 +84,7 @@ event:
       content: "Resting areas open"
       - time: "12:00 AM"
       content: "Midnight pizza!"
-   sunday :
+   sunday:
       - time: "08:30 AM"
       content: "Breakfast"
       - time: "12:30 PM"
