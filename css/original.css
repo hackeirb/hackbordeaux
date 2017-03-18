@@ -468,7 +468,11 @@ a:hover {
 
 #schedule{
    background-color: #0F2C34;
-   padding-top: 4vh;
+   padding-top: 1vh;
+}
+
+#schedule .h1 {
+   margin-bottom: 2vh;
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
