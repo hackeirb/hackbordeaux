@@ -125,6 +125,9 @@ event:
       link: "https://bloomberg.com"
     - image : "images/sponsors/partners/amazon-web-services.svg"
       link: "https://aws.amazon.com"
+    media:
+    - image : "images/sponsors/partners/media/humancoders.png"
+      link: "https://www.humancoders.com/"
 
   # This is the message you'll receive once you've registered.
   register:
