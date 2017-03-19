@@ -210,7 +210,6 @@ layout: default
     </div>
     <h1 class="text-center">General Partners</h1>
     <div class="row partners">
-      <div class="centered">
         {% for logo in site.event.sponsors.partners %}
         <div class="col-xs-12 col-sm-4 text-center">
           <div class="item">
@@ -218,11 +217,9 @@ layout: default
           </div>
         </div>
         {% endfor %}
-      </div>
     </div>
     <h1 class="text-center">Media Partners</h1>
     <div class="row partners">
-      <div class="centered">
         {% for logo in site.event.sponsors.media %}
         <div class="col-sm-offset-4 col-xs-12 col-sm-4 text-center">
           <div class="item">
@@ -230,14 +227,11 @@ layout: default
           </div>
         </div>
         {% endfor %}
-      </div>
     </div>
     <div class="row invite">
-      <div class="centered">
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
           {{ site.event.sponsors.invite | markdownify }}
         </div>
-      </div>
     </div>
     <div class="buttons">
         <a href="mailto:sponsor@hackbordeaux.com">Sponsor</a>
