@@ -738,12 +738,14 @@ a:hover {
    #sponsors .partners {
 	margin-left:auto;
 	margin-right:auto;
-	width:20vh;
+	width:18vh;
+	margin-top:0;
    }
 #sponsors .gold {
 	margin-left:auto;
 	margin-right:auto;
 	width:50vh;
+	margin-top:0;
    }
 }
  /***********************************************************************************************
