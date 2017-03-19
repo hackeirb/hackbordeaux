@@ -735,13 +735,11 @@ a:hover {
 
 
 @media (max-width: 770px) {
-   .partners {
-      margin-left:24vh;
-      margin-top:0;
+   .row .centered {
+	margin-left:auto;
+	margin-right:auto;	  
    }
-   .gold {
-      margin-top:0;	
-   }
+
 }
  /***********************************************************************************************
   * Footer Section
