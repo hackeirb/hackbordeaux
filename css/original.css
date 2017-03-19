@@ -663,8 +663,9 @@ a:hover {
 .gold {
    margin-top: 10vh;
 }
+
 .gold div {
-   margin-left: 24vh;
+   margin-left: 15vh;
 }
 
 .title-gold {
@@ -733,10 +734,13 @@ a:hover {
  }
 
 
-@media (max-width: 600px) {
+@media (max-width: 770px) {
    .partners {
       margin-left:24vh;
       margin-top:0;
+   }
+   .gold {
+      margin-top:0;	
    }
 }
  /***********************************************************************************************
