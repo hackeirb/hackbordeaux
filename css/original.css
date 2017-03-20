@@ -574,7 +574,9 @@ a:hover {
 /**********************************************************************************
  * Abroad Explorers Section
  **********************************************************************************/
-
+.abroad h1 h2 h3{
+   color: #0F2C34;
+}
 .abroad:before {
    z-index: -1;
    position: absolute;
@@ -656,6 +658,7 @@ a:hover {
 .abroad .buttons a:hover,
 .abroad .buttons a:focus {
   background-color: #0F2C34;
+  color:#fff;
   transition: all 0.2s ease;
 }
 
