@@ -469,6 +469,7 @@ a:hover {
 #schedule{
    background-color: #0F2C34;
    padding-top: 1vh;
+   position: relative;
 }
 
 #schedule .h1 {
