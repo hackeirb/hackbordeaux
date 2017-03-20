@@ -653,6 +653,12 @@ a:hover {
   text-transform: uppercase;
 }
 
+.abroad .buttons a:hover,
+.abroad .buttons a:focus {
+  background-color: #0F2C34;
+  transition: all 0.2s ease;
+}
+
 /***********************************************************************************************
  * Sponsors Section
  ***********************************************************************************************/
