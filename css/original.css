@@ -629,6 +629,30 @@ a:hover {
   margin-top: 1em;
 }
 
+.abroad .buttons {
+  margin: 0 0;
+  text-align:center;
+  padding: 2.8vh;
+}
+/* padding-top: 60vh; */
+
+.abroad .buttons a {
+  background-color: transparent;
+  border: 3px solid;
+  border-color: #00B189;
+  /* background: #fff; */
+  /*border: 10px solid #A30000;*/
+  border-radius: 10px;
+  color: #00B189;
+  display: inline;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 200;
+  padding: 10px 55px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 /***********************************************************************************************
  * Sponsors Section
  ***********************************************************************************************/
