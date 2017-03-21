@@ -173,7 +173,7 @@ event:
       link: "https://www.humancoders.com/"
     food:
     - image: "images/sponsors/partners/food/boitepizza.png"
-    - link: https://www.laboiteapizza.com/
+      link: https://www.laboiteapizza.com/
 
   # This is the message you'll receive once you've registered.
   register:
