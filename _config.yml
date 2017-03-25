@@ -172,10 +172,11 @@ event:
     - image : "images/sponsors/partners/media/humancoders.png"
       link: "https://www.humancoders.com/"
     food:
-    - image: "images/sponsors/partners/food/boitepizza.png"
-      link: https://www.laboiteapizza.com/
     - image: "images/sponsors/partners/food/asobo.png"
       link: http://www.asobostudio.com/
+    - image: "images/sponsors/partners/food/boitepizza.png"
+      link: https://www.laboiteapizza.com/
+
 
   # This is the message you'll receive once you've registered.
   register:
