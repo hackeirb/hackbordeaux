@@ -143,6 +143,12 @@ event:
     - question: "Where is the event?"
       answer: >
         The event is being hosted at <a href="#location">Bordeaux-INP, ENSEIRB-MATMECA</a>.
+    - question: "Do you provide travel reimbursement?"
+      answer: >
+        Yes, thanks to our sponsors we can provide up to 20euros ! More info soon.
+    - question: "what is the maximum size of a team ?"
+      answer: >
+        You can be 4 hackers in each team!
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
