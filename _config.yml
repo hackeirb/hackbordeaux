@@ -177,11 +177,6 @@ event:
       link: "https://bloomberg.com"
     - image : "images/sponsors/partners/amazon-web-services.svg"
       link: "https://aws.amazon.com"
-    media:
-    - image : "images/sponsors/partners/media/humancoders.png"
-      link: "https://www.humancoders.com/"
-    - image : "images/sponsors/partners/media/hemera.png"
-      link: "http://hemera.camp/"
     food:
     - image: "images/sponsors/partners/food/asobo.png"
       link: http://www.asobostudio.com/
