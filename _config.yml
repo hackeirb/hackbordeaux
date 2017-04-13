@@ -163,7 +163,7 @@ event:
     gold:
     - image : "images/sponsors/newmips.png"
       link: "https://www.newmips.com"
-    siver:
+    silver:
     - image : "images/sponsors/algolia.png"
       link: "https://www.algolia.com"
     partners:
