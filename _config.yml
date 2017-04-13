@@ -163,6 +163,9 @@ event:
     gold:
     - image : "images/sponsors/newmips.png"
       link: "https://www.newmips.com"
+    siver:
+    - image : "images/sponsors/algolia.png"
+      link: "https://www.algolia.com"
     partners:
     - image : "images/sponsors/partners/mlh.png"
       link: "https://mlh.io"
@@ -177,6 +180,8 @@ event:
     media:
     - image : "images/sponsors/partners/media/humancoders.png"
       link: "https://www.humancoders.com/"
+    - image : "images/sponsors/partners/media/hemera.png"
+      link: "http://hemera.camp/"
     food:
     - image: "images/sponsors/partners/food/asobo.png"
       link: http://www.asobostudio.com/
