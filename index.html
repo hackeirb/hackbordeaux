@@ -219,7 +219,7 @@ layout: default
     </div>
     
     <h1 class="text-center title-silver">Silver Sponsor</h1>
-    <div class="row gold">
+    <div class="row silver">
       {% for logo in site.event.sponsors.silver %}
       <div class="col-sm-offset-2 col-xs-12 col-sm-8 text-center">
         <div class="item">
@@ -242,14 +242,18 @@ layout: default
     </div>
     <h1 class="text-center">Media Partners</h1>
     <div class="row partners">
-        {% for logo in site.event.sponsors.media %}
         <div class="col-sm-offset-2 col-xs-12 col-sm-4 text-center">
           <div class="item">
-            <a href="{{ logo.link }}"> <img src="{{ logo.image }}" /></a>
+            <a href="https://www.humancoders.com/"> <img src="images/sponsors/partners/media/humancoders.png" /></a>
           </div>
         </div>
-        {% endfor %}
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div class="item">
+            <a href="http://hemera.camp/"> <img src="images/sponsors/partners/media/hemera.png" /></a>
+          </div>
+        </div>
     </div>
+    
     <h1 class="text-center">Food Partners</h1>
     <div class="row partners">
         <div class="col-sm-offset-2 col-xs-12 col-sm-4 text-center">
