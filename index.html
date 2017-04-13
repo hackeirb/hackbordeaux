@@ -217,6 +217,19 @@ layout: default
       {% endfor %}
 
     </div>
+    
+    <h1 class="text-center title-silver">Silver Sponsor</h1>
+    <div class="row gold">
+      {% for logo in site.event.sponsors.silver %}
+      <div class="col-sm-offset-2 col-xs-12 col-sm-8 text-center">
+        <div class="item">
+          <a href="{{ logo.link }}"><img src="{{ logo.image }}" /></a>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+    
     <h1 class="text-center">General Partners</h1>
     <div class="row partners">
         {% for logo in site.event.sponsors.partners %}
