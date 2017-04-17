@@ -217,7 +217,7 @@ layout: default
       {% endfor %}
 
     </div>
-    
+
     <h1 class="text-center title-silver">Silver Sponsor</h1>
     <div class="row silver">
       {% for logo in site.event.sponsors.silver %}
@@ -229,7 +229,7 @@ layout: default
       {% endfor %}
 
     </div>
-    
+
     <h1 class="text-center">General Partners</h1>
     <div class="row partners">
         {% for logo in site.event.sponsors.partners %}
@@ -253,19 +253,16 @@ layout: default
           </div>
         </div>
     </div>
-    
+
     <h1 class="text-center">Food Partners</h1>
     <div class="row partners">
-        <div class="col-sm-offset-2 col-xs-12 col-sm-4 text-center">
-          <div class="item">
-            <a href="http://www.asobostudio.com/"> <img src="images/sponsors/partners/food/asobo.png" /></a>
-          </div>
-        </div>
+        {% for logo in site.event.sponsors.food %}
         <div class="col-xs-12 col-sm-4 text-center">
           <div class="item">
-            <a href="https://www.laboiteapizza.com/"> <img src="images/sponsors/partners/food/boitepizza.png" /></a>
+            <a href="{{ logo.link }}"> <img src="{{ logo.image }}" /></a>
           </div>
         </div>
+        {% endfor %}
     </div>
     <div class="row invite">
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
