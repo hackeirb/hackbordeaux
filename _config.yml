@@ -186,7 +186,9 @@ event:
       link: http://www.herbalife.com/
     - image: "images/sponsors/partners/food/boitepizza.png"
       link: https://www.laboiteapizza.com/
-
+    domains:
+    - image: "images/sponsors/partners/domains/tech.png"
+      link: http://get.tech/
 
   # This is the message you'll receive once you've registered.
   register:
