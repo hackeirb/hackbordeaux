@@ -189,6 +189,9 @@ event:
     domains:
     - image: "images/sponsors/partners/domains/tech.png"
       link: http://get.tech/
+    hardware:
+    - image: "images/sponsors/partners/hardware/sigfox.png"
+      link: https://www.sigfox.com/en
 
   # This is the message you'll receive once you've registered.
   register:
