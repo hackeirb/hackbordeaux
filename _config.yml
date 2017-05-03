@@ -188,6 +188,8 @@ event:
       link: http://www.herbalife.com/
     - image: "images/sponsors/partners/food/boitepizza.png"
       link: https://www.laboiteapizza.com/
+    - image: "images/sponsors/partners/food/nuit-blanche.jpg"
+      link: https://www.facebook.com/nuit.blanche.92/
     domains:
     - image: "images/sponsors/partners/domains/tech.png"
       link: http://get.tech/
