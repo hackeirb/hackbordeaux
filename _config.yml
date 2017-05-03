@@ -181,8 +181,8 @@ event:
       link: "https://bloomberg.com"
     - image : "images/sponsors/partners/amazon-web-services.svg"
       link: "https://aws.amazon.com"
-    - image :"images/sponsors/clay.png"
-      link :"http://www.claymusic.fr/"
+    - image : "images/sponsors/clay.png"
+      link: "http://www.claymusic.fr/"
     food:
     - image: "images/sponsors/partners/food/asobo.png"
       link: http://www.asobostudio.com/
