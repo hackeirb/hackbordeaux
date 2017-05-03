@@ -107,7 +107,7 @@ a {
 }
 
 
-a.float + div.label-container {
+a.float + div.label-container {	
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s ease;
@@ -115,6 +115,7 @@ a.float + div.label-container {
 
 a.float:hover + div.label-container{
   visibility: visible;
+  z-index:30;
   opacity: 1;
 }
 /*
