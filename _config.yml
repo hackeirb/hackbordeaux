@@ -168,6 +168,8 @@ event:
       link: "https://www.algolia.com"
     - image : "images/sponsors/soprasteria.png"
       link: "https://www.soprasteria.com/en"
+    - image : "images/sponsors/lectra-rouge-gris.png"
+      link: "https://www.lectra.com/en"
     partners:
     - image : "images/sponsors/partners/mlh.png"
       link: "https://mlh.io"
