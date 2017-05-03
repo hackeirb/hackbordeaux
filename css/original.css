@@ -50,6 +50,7 @@ a {
 	right:105px;
 	display:table;
 	visibility: hidden;
+	z-index:30;
 }
 
 .label-text{
@@ -223,6 +224,7 @@ a:hover {
   position: fixed;
   bottom: 20%;
   text-align:center;
+  z-index:30;
 }
 
 #bird-scroll a {
