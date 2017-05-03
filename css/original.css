@@ -79,6 +79,7 @@ a {
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
+	z-index:30;
 	/*box-shadow: 2px 2px 3px #999;*/
       -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
@@ -225,7 +226,6 @@ a:hover {
   position: fixed;
   bottom: 20%;
   text-align:center;
-  z-index:30;
 }
 
 #bird-scroll a {
