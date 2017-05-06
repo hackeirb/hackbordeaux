@@ -717,6 +717,16 @@ a:hover {
   line-height: 1.5em;
 }
 
+#challenges li {
+  color: #0F2C34;
+  line-height: 1.5em;
+}
+#challenges ul {
+  color: #0F2C34;
+  line-height: 1.5em;
+}
+
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
