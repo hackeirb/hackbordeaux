@@ -107,16 +107,16 @@ event:
     - time: "03:00 - 04:00 PM"
       content: "<a href=\"https://www.newmips.com/\"> Newmips </a> “Create a NodeJS application using Newmips Bot”"
     - time: "04:00 - 05:00 PM"
-      content: " Blitzr ”Full Stack Music API”"
+      content: "<a href=\"https://blitzr.io/\">Blitzr</a> ”Full Stack Music API”"
     - time: "06:00 - 07:00 PM"
-      content: " MLH ”What are MLH Hackathons ? Q&A + Cup Stacking”"
+      content: "<a href=\"https://mlh.io/\">MLH</a> ”What are MLH Hackathons ? Q&A + Cup Stacking”"
     workshopsG:
     - time: "03:00 - 04:00 PM"
-      content: "Lectra “Async, reactive pipelines, RxJS&TypeScript”"
+      content: "<a href=\"https://www.lectra.com/en\">Lectra</a> “Async, reactive pipelines, RxJS&TypeScript”"
     - time: "04:00 - 05:00 PM"
-      content: "Algolia “Ruby & JS with Algolia API”"
+      content: "<a href=\"https://www.algolia.com/\">Algolia</a> “Ruby & JS with Algolia API”"
     - time: "05:00 - 06:00 PM"
-      content: "Qucit “Data Science with Python and Pandas”"
+      content: "<a href=\"http://www.qucit.com/\">Qucit</a> “Data Science with Python and Pandas”"
       
       # Info Sections
   info:
