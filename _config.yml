@@ -114,7 +114,7 @@ event:
     - time: "03:00 - 04:00 PM"
       content: "Lectra “Making Async simple : reactive pipelines with RxJS and TypeScript”"
     - time: "04:00 - 05:00 PM"
-      content: "Algolia “Web technologies with Algolia API”"
+      content: "Algolia “Ruby & JS with Algolia API”"
     - time: "05:00 - 06:00 PM"
       content: "Qucit “Data Science with Python and Pandas”"
       
