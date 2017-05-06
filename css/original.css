@@ -712,7 +712,12 @@ a:hover {
   color: #0F2C34;
   margin: 30px 0;
 }
-
+#challenges h2 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #0F2C34;
+  margin: 30px 0;
+}
 #challenges p {
   color: #0F2C34;
   line-height: 1.5em;
