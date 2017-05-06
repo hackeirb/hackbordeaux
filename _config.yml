@@ -105,7 +105,7 @@ event:
       content: "Ending ceremony"
     workshopsF:
     - time: "03:00 - 04:00 PM"
-      content: "Newmips “Create a NodeJS application using Newmips Bot”"
+      content: "<a href=\"https://www.newmips.com/\"> Newmips </a> “Create a NodeJS application using Newmips Bot”"
     - time: "04:00 - 05:00 PM"
       content: " Blitzr ”Full Stack Music API”"
     - time: "06:00 - 07:00 PM"
