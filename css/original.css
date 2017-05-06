@@ -496,7 +496,10 @@ a:hover {
   width: 33.3333%;
   display: inline-block;
 }
-
+#challenges img {
+  width: 33.3333%;
+  display: inline-block;
+}
 #gallery img {
   margin: 0;
   max-width: 100%;
