@@ -112,7 +112,7 @@ event:
       content: " MLH ”What are MLH Hackathons ? Q&A + Cup Stacking”"
     workshopsG:
     - time: "03:00 - 04:00 PM"
-      content: "Lectra “A modern Typescript”"
+      content: "Lectra “Making Async simple : reactive pipelines with RxJS and TypeScript”"
     - time: "04:00 - 05:00 PM"
       content: "Algolia “Web technologies with Algolia API”"
     - time: "05:00 - 06:00 PM"
