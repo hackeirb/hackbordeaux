@@ -103,7 +103,21 @@ event:
       content: "1st | 2nd | 3rd places winners announced"
     - time: "05:00 PM"
       content: "Ending ceremony"
-
+    workshopsF:
+    - time: "03:00 - 04:00 PM"
+      content: "Newmips “Create a NodeJS application using Newmips Bot”"
+    - time: "04:00 - 05:00 PM"
+      content: " Blitzr ”Full Stack Music API”"
+    - time: "05:00 - 06:00 PM"
+      content: " MLH ”What are MLH Hackathons ? Q&A + Cup Stacking”"
+    workshopsG:
+    - time: "03:00 - 04:00 PM"
+      content: "Lectra “A modern Typescript”"
+    - time: "04:00 - 05:00 PM"
+      content: "Algolia “Web technologies with Algolia API”"
+    - time: "05:00 - 06:00 PM"
+      content: "Qucit “Data Science with Python and Pandas”"
+      
       # Info Sections
   info:
     image: "images/INP_building.jpg"
