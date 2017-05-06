@@ -686,6 +686,37 @@ a:hover {
 }
 
 
+.challenges:before {
+   z-index: -1;
+   position: absolute;
+   left: 0;
+   right: 0;
+   content: '';
+   top: 8vh;
+   display:block;
+
+}
+
+.challenges {
+ background-color: #fff;
+ padding-top: 2em;
+ padding-bottom: 4em;
+ position: relative;
+   z-index:1;
+}
+
+.challenges h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #0F2C34;
+  margin: 30px 0;
+}
+
+.challenges p {
+  color: #0F2C34;
+  line-height: 1.5em;
+}
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
