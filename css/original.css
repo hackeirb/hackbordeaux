@@ -702,6 +702,7 @@ a:hover {
  padding-top: 2em;
  padding-bottom: 4em;
  position: relative;
+ text-align:center;
    z-index:1;
 }
 
