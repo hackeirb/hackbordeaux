@@ -96,10 +96,6 @@ event:
     - time: "02:00 PM"
       content: "Hacking Demos"
     - time: "04:00 PM"
-      content: "Challenges winners announced"
-    - time: "05:00 PM"
-      content: "1st | 2nd | 3rd places winners announced"
-    - time: "05:00 PM"
       content: "Ending ceremony"
     workshopsF:
     - time: "03:00 - 04:00 PM"
