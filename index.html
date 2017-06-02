@@ -103,7 +103,7 @@ layout: default
     <p> You can join each of the sponsors's slack channels to learn more about them and their challenges</p>
     <h2> NewMips First Challenge</h2> <p> Implement the most efficient chatbot for Newmips Open Source software.</p>
     <h2> Newmips Second Challenge</h2> <p> Create a NodeJS application :</p>
-      <img src="images/newmips_challenge.png"> 
+      <img src="images/newmips_challenge.png">
     <h2> Lectra </h2> <p> Integrating the consumer’s voice in the fashion industry’s value chain, from creation to sales. </p>
     <h2> Héméra </h2> <p> Propose the best project that fits the "startup" mindset.</p>
   <h2> Algolia </h2> <p> Make the best search experience using <a href="http://www.algolia.com"> Algolia </a>. </p>
@@ -215,7 +215,7 @@ layout: default
     </div>
   </div>
 
-  
+
 </section>
 
 <section class="abroad">
@@ -315,16 +315,13 @@ layout: default
     </div>
     <h1 class="text-center">Media Partners</h1>
     <div class="row partners">
-        <div class="col-sm-offset-2 col-xs-12 col-sm-4 text-center">
-          <div class="item">
-            <a href="https://www.humancoders.com/"> <img src="images/sponsors/partners/media/humancoders.png" /></a>
-          </div>
+      {% for logo in site.event.sponsors.media %}
+      <div class="col-xs-12 col-sm-4 text-center">
+        <div class="item">
+          <a href="{{ logo.link }}"> <img src="{{ logo.image }}" /></a>
         </div>
-        <div class="col-xs-12 col-sm-4 text-center">
-          <div class="item">
-            <a href="http://hemera.camp/"> <img src="images/sponsors/partners/media/hemera.png" /></a>
-          </div>
-        </div>
+      </div>
+      {% endfor %}
     </div>
 
     <h1 class="text-center">Food Partners</h1>

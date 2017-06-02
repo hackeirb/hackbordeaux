@@ -111,7 +111,7 @@ event:
       content: "<a href=\"https://www.algolia.com/\">Algolia</a> “Ruby & JS with Algolia API”"
     - time: "05:00 - 06:00 PM"
       content: "<a href=\"http://www.qucit.com/\">Qucit</a> “Data Science with Python and Pandas”"
-      
+
       # Info Sections
   info:
     image: "images/INP_building.jpg"
@@ -191,6 +191,13 @@ event:
       link: "https://aws.amazon.com"
     - image : "images/sponsors/clay.png"
       link: "http://www.claymusic.fr/"
+    media:
+    - image : "images/sponsors/partners/media/humancoders.png"
+      link: "https://www.humancoders.com/"
+    - image : "images/sponsors/partners/media/hemera.png"
+      link: "http://hemera.camp/"
+    - image : "images/sponsors/partners/media/crous.png"
+      link: "https://www.crous-bordeaux.fr/"
     food:
     - image: "images/sponsors/partners/food/asobo.png"
       link: http://www.asobostudio.com/
